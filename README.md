@@ -1,8 +1,8 @@
 # tf-faster-rcnn
-Environment setup list:
+Environment setup list (required):
 1. Python 3.6
 2. CUDA 10.0
-3. cuDNN 7.4
+3. cuDNN 7.4 for CUDA 10.0
 4. tensorflow_gpu-1.14.0
 5. Visual Stuio C++ Build Tools 2015
 
