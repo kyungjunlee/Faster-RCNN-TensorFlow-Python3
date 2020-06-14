@@ -4,7 +4,7 @@ Environment setup list (required):
 2. CUDA 10.0
 3. cuDNN 7.4 for CUDA 10.0
 4. tensorflow_gpu-1.14.0
-5. Visual Stuio C++ Build Tools 2015
+5. Visual Studio C++ Build Tools 2015
 
 # How To Use This Branch
 1. Install tensorflow, preferably GPU version. Follow [instructions]( https://www.tensorflow.org/install/install_windows). If you do not install GPU version, you need to comment out all the GPU calls inside code and replace them with relavent CPU ones.
