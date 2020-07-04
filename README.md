@@ -15,7 +15,7 @@
 
 3. (Optional) You can change the ```learning rate```, ```max_iters```, etc in ```lib/config/config.py```. However, ```snap_iterations``` need to be **SMALLER** than ```max_iters```.
 
-4. Change ```NETS = {'vgg16': ('vgg16_faster_rcnn_iter_70000.ckpt',), 'res101': ('res101_faster_rcnn_iter_110000.ckpt',)} DATASETS = {'pascal_voc': ('voc_2007_trainval',), 'pascal_voc_0712': ('voc_2007_trainval+voc_2012_trainval',)}```  in demo.py to  ```NETS = {'vgg16': ('vgg16.ckpt',), 'res101': ('res101_faster_rcnn_iter_110000.ckpt',)} DATASETS = {'pascal_voc': ('voc_2007_trainval',), 'pascal_voc_0712': ('voc_2007_trainval',)}```.
+4. Change ```NETS = {'vgg16': ('vgg16_faster_rcnn_iter_70000.ckpt',), 'res101': ('res101_faster_rcnn_iter_110000.ckpt',)} DATASETS = {'pascal_voc': ('voc_2007_trainval',), 'pascal_voc_0712': ('voc_2007_trainval+voc_2012_trainval',)}```  in ```demo.py``` to  ```NETS = {'vgg16': ('vgg16.ckpt',), 'res101': ('res101_faster_rcnn_iter_110000.ckpt',)} DATASETS = {'pascal_voc': ('voc_2007_trainval',), 'pascal_voc_0712': ('voc_2007_trainval',)}```.
 
 5. Create ```output/vgg16/voc_2007_trainval/default``` folder under the root folder.
 
@@ -36,6 +36,8 @@
 3. Change ```default='res101'``` on in ```demo.py``` to ```default='vgg16'```.
 
 4. Run demo.py.
+
+
 
 
 **Below is the same as the original repository.**
