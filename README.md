@@ -9,7 +9,7 @@
 5. Visual Studio C++ Build Tools 2015
 
 # How to train on your own dataset?
-1. To use this model, you need to change your data to the VOC2007-like dataset. https://www.programmersought.com/article/65711056356/;jsessionid=421CF30D7DDB52E78C87ABD7477A08E3
+1. To use this model, you need to change your data to the [VOC2007-like dataset](https://www.programmersought.com/article/65711056356/;jsessionid=421CF30D7DDB52E78C87ABD7477A08E3).
 
 2. Change the label classes on line 33/34 of ```lib/datasets/pascal_voc.py``` (also ```demo.py``` in root folder) to your own classes (**DO NOT DELETE BACKGROUND CLASS**).
 
