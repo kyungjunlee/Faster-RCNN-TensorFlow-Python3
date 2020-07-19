@@ -1,9 +1,9 @@
 import os
 import shutil
 
-#reannotate (dont miss any files)
-#used this script
-#modify the Faster-RCNN script
+#1. reannotate & make sure it's in XML format annotation (dont miss any files)
+#2. run this script to rename & and create a mapping relationship between old names and new names
+#3. update the classes in Faster-RCNN training script and start training
 
 def renameImage(): 
     count = 1
