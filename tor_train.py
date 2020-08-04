@@ -9,6 +9,7 @@ from lib.datasets import roidb as rdl_roidb
 from lib.datasets.factory import get_imdb
 from lib.datasets.imdb import imdb as imdb2
 from lib.layer_utils.roi_data_layer import RoIDataLayer
+#from lib.layer_utils.single_roi_data_layer import SingleRoIDataLayer
 from lib.nets.vgg16 import vgg16
 from lib.utils.timer import Timer
 
@@ -74,12 +75,7 @@ def get_training_roidb(imdb):
     return imdb.roidb
 
 
-def combined_roidb(imdb_names):
-    """
-    Combine multiple roidbs
-    """
-
-    def get_roidb(imdb_name):
+def get_roidb(imdb_name):
         imdb = get_imdb(imdb_name)
         print('Loaded dataset `{:s}` for training'.format(imdb.name))
         imdb.set_proposal_method("gt")
@@ -87,6 +83,11 @@ def combined_roidb(imdb_names):
         roidb = get_training_roidb(imdb)
         return roidb
 
+
+def combined_roidb(imdb_names):
+    """
+    Combine multiple roidbs
+    """
     roidbs = [get_roidb(s) for s in imdb_names.split('+')]
     roidb = roidbs[0]
     if len(roidbs) > 1:
@@ -103,14 +104,6 @@ def load_db(db_name):
     """
     TOR-related database
     """
-    def get_roidb(imdb_name):
-        imdb = get_imdb(imdb_name)
-        print('Loaded dataset `{:s}` for training'.format(imdb.name))
-        imdb.set_proposal_method("gt")
-        print('Set proposal method: {:s}'.format("gt"))
-        roidb = get_training_roidb(imdb)
-        return roidb
-    
     roidb = get_roidb(db_name)
     imdb = get_imdb(db_name)
     return imdb, roidb
