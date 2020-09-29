@@ -3,6 +3,7 @@
 # Copyright (c) 2015 Microsoft
 # Licensed under The MIT License [see LICENSE for details]
 # Written by Ross Girshick and Xinlei Chen
+# Modified by Kyungjun Lee
 # --------------------------------------------------------
 from __future__ import absolute_import
 from __future__ import division
@@ -29,9 +30,15 @@ class gtea(imdb):
         if image_set == "train":
           self._list_file = osp.join(self._data_path, "train_GTEA_voc.txt")
         elif image_set == "val":
-          self._list_file = osp.join(self._data_path, "train_GTEA_voc.txt")
+          self._list_file = osp.join(self._data_path, "val_GTEA_voc.txt")
         elif image_set == "test":
-          self._list_file = osp.join(self._data_path, "train_GTEA_voc.txt")
+          self._list_file = osp.join(self._data_path, "test_GTEA_voc.txt")
+        elif image_set == "train-wholeBB":
+          self._list_file = osp.join(self._data_path, "train_GTEA_voc_wholeBB.txt")
+        elif image_set == "val-wholeBB":
+          self._list_file = osp.join(self._data_path, "val_GTEA_voc_wholeBB.txt")
+        elif image_set == "test-wholeBB":
+          self._list_file = osp.join(self._data_path, "test_GTEA_voc_wholeBB.txt")
         else:
           assert False, "{} not found in GTEA".format(image_set)
 
@@ -240,8 +247,8 @@ class gtea(imdb):
             self._image_set + '.txt')
         cachedir = osp.join(self._output_dir, 'annotations_cache')
                 
-        if not os.path.isdir(output_dir):
-            os.mkdir(output_dir)
+        if not osp.exists(output_dir):
+            os.makedirs(output_dir)
         
         #use COCO mAP metric
         m_aps = []

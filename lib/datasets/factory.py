@@ -15,6 +15,8 @@ from lib.datasets.pascal_voc import pascal_voc
 from lib.datasets.coco import coco
 # TOR-related DBs
 from lib.datasets.gtea import gtea
+from lib.datasets.gtea_gaze_plus import gtea_gaze_plus
+from lib.datasets.tego import tego
 
 import numpy as np
 
@@ -37,10 +39,20 @@ for year in ['2015']:
     __sets[name] = (lambda split=split, year=year: coco(split, year))
 
 # Set up GTEA
-for split in ["train", "val", "test"]:
+for split in ["train", "val", "test", "train-wholeBB", "val-wholeBB", "test-wholeBB"]:
   name = "gtea_{}".format(split)
   __sets[name] = (lambda split=split: gtea(split))
-  
+
+# Set up GTEA Gaze+
+for split in ["train", "val", "test", "train-wholeBB", "val-wholeBB", "test-wholeBB"]:
+  name = "gtea-gaze-plus_{}".format(split)
+  __sets[name] = (lambda split=split: gtea_gaze_plus(split))
+
+# Set up TEgO
+for split in ["train", "val", "test", "train-wholeBB", "val-wholeBB", "test-wholeBB",\
+              "train-blind", "train-sighted", "train-blind-wholeBB", "train-sighted-wholeBB"]:
+  name = "tego_{}".format(split)
+  __sets[name] = (lambda split=split: tego(split))
 
 def get_imdb(name):
   """Get an imdb (image database) by name."""

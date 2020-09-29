@@ -1,4 +1,7 @@
+import argparse
 import time
+import sys
+import os
 
 import numpy as np
 import tensorflow as tf
@@ -12,54 +15,13 @@ from lib.layer_utils.roi_data_layer import RoIDataLayer
 #from lib.layer_utils.single_roi_data_layer import SingleRoIDataLayer
 from lib.nets.vgg16 import vgg16
 from lib.utils.timer import Timer
+from lib.utils.util import get_idle_gpu
 
 try:
   import cPickle as pickle
 except ImportError:
   import pickle
-import os
 
-import subprocess as sp
-ACCEPTABLE_AVAILABLE_MEMORY = 10000
-
-# https://github.com/yselivonchyk/TensorFlow_DCIGN/blob/master/utils.py
-def _output_to_list(output):
-  return output.decode('ascii').split('\n')[:-1]
-
-def get_idle_gpu(leave_unmasked=1, random=True):
-  try:
-    command = "nvidia-smi --query-gpu=memory.free --format=csv"
-    memory_free_info = _output_to_list(sp.check_output(command.split()))[1:]
-    memory_free_values = [int(x.split()[0]) for i, x in enumerate(memory_free_info)]
-    available_gpus = [i for i, x in enumerate(memory_free_values) if x > ACCEPTABLE_AVAILABLE_MEMORY]
-
-    if len(available_gpus) <= leave_unmasked:
-      print('Found only %d usable GPUs in the system' % len(available_gpus))
-      return -1
-
-    if random:
-      available_gpus = np.asarray(available_gpus)
-      np.random.shuffle(available_gpus)
-
-    gpu_to_use = available_gpus[0]
-    print("Using GPU: ", gpu_to_use)
-    
-    return int(gpu_to_use)
-    """
-    # update CUDA variable
-    gpus = available_gpus[:leave_unmasked]
-    setting = ','.join(map(str, gpus))
-    os.environ["CUDA_VISIBLE_DEVICES"] = setting
-    print('Left next %d GPU(s) unmasked: [%s] (from %s available)'
-          % (leave_unmasked, setting, str(available_gpus)))
-    """
-  except FileNotFoundError as e:
-    print('"nvidia-smi" is probably not installed. GPUs are not masked')
-    print(e)
-    return -1
-  except sp.CalledProcessError as e:
-    print("Error on GPU masking:\n", e.output)
-    return -1
 
 def get_training_roidb(imdb):
     """Returns a roidb (Region of Interest database) for use in training."""
@@ -76,12 +38,12 @@ def get_training_roidb(imdb):
 
 
 def get_roidb(imdb_name):
-        imdb = get_imdb(imdb_name)
-        print('Loaded dataset `{:s}` for training'.format(imdb.name))
-        imdb.set_proposal_method("gt")
-        print('Set proposal method: {:s}'.format("gt"))
-        roidb = get_training_roidb(imdb)
-        return roidb
+    imdb = get_imdb(imdb_name)
+    print('Loaded dataset `{:s}` for training'.format(imdb.name))
+    imdb.set_proposal_method("gt")
+    print('Set proposal method: {:s}'.format("gt"))
+    roidb = get_training_roidb(imdb)
+    return roidb
 
 
 def combined_roidb(imdb_names):
@@ -110,19 +72,39 @@ def load_db(db_name):
 
 
 class Train:
-    def __init__(self):
+    def __init__(self, dataset):
 
         # Create network
         if cfg.FLAGS.network == 'vgg16':
             self.net = vgg16(batch_size=cfg.FLAGS.ims_per_batch)
         else:
             raise NotImplementedError
-
-        #self.imdb, self.roidb = combined_roidb("voc_2007_trainval")
-        self.imdb, self.roidb = load_db("gtea_train")
+        
+        if dataset == "gtea":
+            self.imdb, self.roidb = load_db("gtea_train")
+        elif dataset == "gtea-gaze-plus":
+            self.imdb, self.roidb = load_db("gtea-gaze-plus_train")
+        elif dataset == "tego":
+            self.imdb, self.roidb = load_db("tego_train")
+        elif dataset == "gtea_wholeBB":
+            self.imdb, self.roidb = load_db("gtea_train-wholeBB")
+        elif dataset == "gtea-gaze-plus_wholeBB":
+            self.imdb, self.roidb = load_db("gtea-gaze-plus_train-wholeBB")
+        elif dataset == "tego_wholeBB":
+            self.imdb, self.roidb = load_db("tego_train-wholeBB")
+        elif dataset == "tego_blind":
+            self.imdb, self.roidb = load_db("tego_train-blind")
+        elif dataset == "tego_sighted":
+            self.imdb, self.roidb = load_db("tego_train-sighted")
+        elif dataset == "tego_blind_wholeBB":
+            self.imdb, self.roidb = load_db("tego_train-blind-wholeBB")
+        elif dataset == "tego_sighted_wholeBB":
+            self.imdb, self.roidb = load_db("tego_train-sighted-wholeBB")
+        else:
+            self.imdb, self.roidb = combined_roidb("voc_2007_trainval")
 
         self.data_layer = RoIDataLayer(self.roidb, self.imdb.num_classes)
-        self.output_dir = cfg.get_output_dir(self.imdb, 'default')
+        self.output_dir = cfg.get_output_dir(self.imdb, dataset)
 
 
     def train(self):
@@ -264,7 +246,31 @@ class Train:
         return filename, nfilename
 
 
+def parse_args():
+    """Parse input arguments."""
+    parser = argparse.ArgumentParser(description='Tensorflow Faster R-CNN training')
+    parser.add_argument('--dataset', dest='dataset', default='gtea',
+                        help='Trained dataset [gtea gtea-gaze-plus tego]')
+    args = parser.parse_args()
+
+    return args
+
+
 if __name__ == '__main__':
+    """
+    args = parse_args()
+
+    if not args.dataset:
+        parser.print_help()
+        sys.exit(0)
+    """
+    if len(sys.argv) != 2:
+        print("Usage: python tor_train.py [dataset]")
+        sys.exit(0)
+    
+    dataset = str(sys.argv[1])
+    print("Training on {}".format(dataset))
+
     # only using CPUs
     # os.environ["CUDA_VISIBLE_DEVICES"]=""
     gpu_to_use = get_idle_gpu(leave_unmasked=0)
@@ -275,6 +281,8 @@ if __name__ == '__main__':
         # only using CPUs
         print("ERROR: no GPU to use for training")
         sys.exit()
-    
-    train = Train()
+
+    #dataset = args.dataset
+    #dataset = "tego"
+    train = Train(dataset)
     train.train()

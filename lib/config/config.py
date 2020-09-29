@@ -21,15 +21,15 @@ tf.app.flags.DEFINE_string('network', "vgg16", "The network to be used as backbo
 #######################
 # Training Parameters #
 #######################
-tf.app.flags.DEFINE_float('weight_decay', 0.0005, "Weight decay, for regularization")
-tf.app.flags.DEFINE_float('learning_rate', 0.001, "Learning rate")
+tf.app.flags.DEFINE_float('weight_decay', 0.0005, "Weight decay, for regularization") #default=0.0005
+tf.app.flags.DEFINE_float('learning_rate', 0.001, "Learning rate") #default=0.001
 tf.app.flags.DEFINE_float('momentum', 0.9, "Momentum")
 tf.app.flags.DEFINE_float('gamma', 0.1, "Factor for reducing the learning rate")
 
-tf.app.flags.DEFINE_integer('batch_size', 256, "Network batch size during training")
-tf.app.flags.DEFINE_integer('max_iters', 40000, "Max iteration")
+tf.app.flags.DEFINE_integer('batch_size', 256, "Network batch size during training") #default=256
+tf.app.flags.DEFINE_integer('max_iters', 40000, "Max iteration") #default=40000
 tf.app.flags.DEFINE_integer('step_size', 30000, "Step size for reducing the learning rate, currently only support one step")
-tf.app.flags.DEFINE_integer('display', 10, "Iteration intervals for showing the loss during training, on command line interface")
+tf.app.flags.DEFINE_integer('display', 100, "Iteration intervals for showing the loss during training, on command line interface")
 
 tf.app.flags.DEFINE_string('initializer', "truncated", "Network initialization parameters")
 tf.app.flags.DEFINE_string('pretrained_model', "./data/imagenet_weights/vgg16.ckpt", "Pretrained network weights")
@@ -41,7 +41,7 @@ tf.app.flags.DEFINE_boolean('use_all_gt', True, "Whether to use all ground truth
 tf.app.flags.DEFINE_integer('max_size', 1000, "Max pixel size of the longest side of a scaled input image")
 tf.app.flags.DEFINE_integer('test_max_size', 1000, "Max pixel size of the longest side of a scaled input image")
 tf.app.flags.DEFINE_integer('ims_per_batch', 1, "Images to use per minibatch")
-tf.app.flags.DEFINE_integer('snapshot_iterations', 5000, "Iteration to take snapshot")
+tf.app.flags.DEFINE_integer('snapshot_iterations', 10000, "Iteration to take snapshot") #default=5000
 
 FLAGS2["scales"] = (600,)
 FLAGS2["test_scales"] = (600,)
@@ -54,17 +54,17 @@ tf.app.flags.DEFINE_string('test_mode', "top", "Test mode for bbox proposal")  #
 ##################
 # RPN Parameters #
 ##################
-tf.app.flags.DEFINE_float('rpn_negative_overlap', 0.3, "IOU < thresh: negative example")
-tf.app.flags.DEFINE_float('rpn_positive_overlap', 0.7, "IOU >= thresh: positive example")
+tf.app.flags.DEFINE_float('rpn_negative_overlap', 0.1, "IOU < thresh: negative example")
+tf.app.flags.DEFINE_float('rpn_positive_overlap', 0.7, "IOU >= thresh: positive example") #default=0.7
 tf.app.flags.DEFINE_float('rpn_fg_fraction', 0.5, "Max number of foreground examples")
-tf.app.flags.DEFINE_float('rpn_train_nms_thresh', 0.7, "NMS threshold used on RPN proposals")
-tf.app.flags.DEFINE_float('rpn_test_nms_thresh', 0.7, "NMS threshold used on RPN proposals")
+tf.app.flags.DEFINE_float('rpn_train_nms_thresh', 0.7, "NMS threshold used on RPN proposals") #default=0.7
+tf.app.flags.DEFINE_float('rpn_test_nms_thresh', 0.7, "NMS threshold used on RPN proposals") #default=0.7
 
 tf.app.flags.DEFINE_integer('rpn_train_pre_nms_top_n', 12000, "Number of top scoring boxes to keep before apply NMS to RPN proposals")
 tf.app.flags.DEFINE_integer('rpn_train_post_nms_top_n', 2000, "Number of top scoring boxes to keep before apply NMS to RPN proposals")
 tf.app.flags.DEFINE_integer('rpn_test_pre_nms_top_n', 6000, "Number of top scoring boxes to keep before apply NMS to RPN proposals")
 tf.app.flags.DEFINE_integer('rpn_test_post_nms_top_n', 300, "Number of top scoring boxes to keep before apply NMS to RPN proposals")
-tf.app.flags.DEFINE_integer('rpn_batchsize', 256, "Total number of examples")
+tf.app.flags.DEFINE_integer('rpn_batchsize', 256, "Total number of examples") #default=256
 tf.app.flags.DEFINE_integer('rpn_positive_weight', -1,
                             'Give the positive RPN examples weight of p * 1 / {num positives} and give negatives a weight of (1 - p).'
                             'Set to -1.0 to use uniform example weighting')
@@ -111,7 +111,7 @@ def get_output_dir(imdb, weights_filename):
     A canonical path is built using the name from an imdb and a network
     (if not None).
     """
-    outdir = osp.abspath(osp.join(FLAGS2["root_dir"], FLAGS2["root_dir"] , 'default', imdb.name))
+    outdir = osp.abspath(osp.join(FLAGS2["root_dir"], 'default', imdb.name))
     if weights_filename is None:
         weights_filename = 'default'
     outdir = osp.join(outdir, weights_filename)

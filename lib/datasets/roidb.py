@@ -42,7 +42,7 @@ def prepare_roidb(imdb):
     zero_inds = np.where(max_overlaps == 0)[0]
     assert all(max_classes[zero_inds] == 0)
     # TOR datasets won't have overlaps so skip this
-    if not imdb.name.startswith('gtea') and not imdb.name.startswith('tor'):
+    if not imdb.name.startswith('gtea') and not imdb.name.startswith('tego'):
       # max overlap > 0 => class should not be zero (must be a fg class)
       nonzero_inds = np.where(max_overlaps > 0)[0]
       assert all(max_classes[nonzero_inds] != 0)
