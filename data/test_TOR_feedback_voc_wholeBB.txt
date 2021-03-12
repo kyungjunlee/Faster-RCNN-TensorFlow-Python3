@@ -1,0 +1,464 @@
+TOR_feedback/Images/p03/original/train/baking soda/baking soda_1555081460745.jpg	TOR_feedback/WholeBBVOC/p03/original/train/baking soda/baking soda_1555081460745.xml
+TOR_feedback/Images/p07/original/train/diced tomatoes/diced tomatoes_1556295989419.jpg	TOR_feedback/WholeBBVOC/p07/original/train/diced tomatoes/diced tomatoes_1556295989419.xml
+TOR_feedback/Images/p07/original/train/pike place roast/pike place roast_1556294111778.jpg	TOR_feedback/WholeBBVOC/p07/original/train/pike place roast/pike place roast_1556294111778.xml
+TOR_feedback/Images/p06/original/train/baking soda/baking soda_1556231433615.jpg	TOR_feedback/WholeBBVOC/p06/original/train/baking soda/baking soda_1556231433615.xml
+TOR_feedback/Images/p06/original/train/diet coke/diet coke_1556228952314.jpg	TOR_feedback/WholeBBVOC/p06/original/train/diet coke/diet coke_1556228952314.xml
+TOR_feedback/Images/p04/original/test2/pike place roast/test2_1555602629428.jpg	TOR_feedback/WholeBBVOC/p04/original/test2/pike place roast/test2_1555602629428.xml
+TOR_feedback/Images/p01/original/train/diced tomatoes/diced tomatoes_1554921405466.jpg	TOR_feedback/WholeBBVOC/p01/original/train/diced tomatoes/diced tomatoes_1554921405466.xml
+TOR_feedback/Images/p03/original/test1/dill/test1_1555086122684.jpg	TOR_feedback/WholeBBVOC/p03/original/test1/dill/test1_1555086122684.xml
+TOR_feedback/Images/p07/original/train/dill/dill_1556293487129.jpg	TOR_feedback/WholeBBVOC/p07/original/train/dill/dill_1556293487129.xml
+TOR_feedback/Images/p08/original/train/dill/dill_1556306443033.jpg	TOR_feedback/WholeBBVOC/p08/original/train/dill/dill_1556306443033.xml
+TOR_feedback/Images/p02/original/train/dill/dill_1554997164570.jpg	TOR_feedback/WholeBBVOC/p02/original/train/dill/dill_1554997164570.xml
+TOR_feedback/Images/p04/original/train/lacroix mango/lacroix mango_1555597992586.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lacroix mango/lacroix mango_1555597992586.xml
+TOR_feedback/Images/p02/original/train/pike place roast/pike place roast_1555000437262.jpg	TOR_feedback/WholeBBVOC/p02/original/train/pike place roast/pike place roast_1555000437262.xml
+TOR_feedback/Images/p04/original/train/baking soda/baking soda_1555598319524.jpg	TOR_feedback/WholeBBVOC/p04/original/train/baking soda/baking soda_1555598319524.xml
+TOR_feedback/Images/p05/original/train/cheetos/cheetos_1556148347842.jpg	TOR_feedback/WholeBBVOC/p05/original/train/cheetos/cheetos_1556148347842.xml
+TOR_feedback/Images/p02/original/test1/lays/test1_1555001403621.jpg	TOR_feedback/WholeBBVOC/p02/original/test1/lays/test1_1555001403621.xml
+TOR_feedback/Images/p09/original/train/lacroix mango/lacroix mango_1556325370052.jpg	TOR_feedback/WholeBBVOC/p09/original/train/lacroix mango/lacroix mango_1556325370052.xml
+TOR_feedback/Images/p08/original/train/chewy bars/chewy bars_1556309194005.jpg	TOR_feedback/WholeBBVOC/p08/original/train/chewy bars/chewy bars_1556309194005.xml
+TOR_feedback/Images/p08/original/train/chewy bars/chewy bars_1556309153511.jpg	TOR_feedback/WholeBBVOC/p08/original/train/chewy bars/chewy bars_1556309153511.xml
+TOR_feedback/Images/p04/original/test2/oregano/test2_1555602924696.jpg	TOR_feedback/WholeBBVOC/p04/original/test2/oregano/test2_1555602924696.xml
+TOR_feedback/Images/p09/original/train/lays/lays_1556325098961.jpg	TOR_feedback/WholeBBVOC/p09/original/train/lays/lays_1556325098961.xml
+TOR_feedback/Images/p07/original/test1/cheetos/test1_1556296691355.jpg	TOR_feedback/WholeBBVOC/p07/original/test1/cheetos/test1_1556296691355.xml
+TOR_feedback/Images/p07/original/test2/coca cola/test2_1556298638278.jpg	TOR_feedback/WholeBBVOC/p07/original/test2/coca cola/test2_1556298638278.xml
+TOR_feedback/Images/p08/original/train/chewy bars/chewy bars_1556309211705.jpg	TOR_feedback/WholeBBVOC/p08/original/train/chewy bars/chewy bars_1556309211705.xml
+TOR_feedback/Images/p08/original/test2/lacroix mango/test2_1556313613925.jpg	TOR_feedback/WholeBBVOC/p08/original/test2/lacroix mango/test2_1556313613925.xml
+TOR_feedback/Images/p04/original/train/fritos/fritos_1555597699852.jpg	TOR_feedback/WholeBBVOC/p04/original/train/fritos/fritos_1555597699852.xml
+TOR_feedback/Images/p02/original/train/pike place roast/pike place roast_1555000604442.jpg	TOR_feedback/WholeBBVOC/p02/original/train/pike place roast/pike place roast_1555000604442.xml
+TOR_feedback/Images/p01/original/train/diced tomatoes/diced tomatoes_1554921484689.jpg	TOR_feedback/WholeBBVOC/p01/original/train/diced tomatoes/diced tomatoes_1554921484689.xml
+TOR_feedback/Images/p06/original/test2/coca cola/test2_1556235911608.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/coca cola/test2_1556235911608.xml
+TOR_feedback/Images/p02/original/train/diet coke/diet coke_1554996517682.jpg	TOR_feedback/WholeBBVOC/p02/original/train/diet coke/diet coke_1554996517682.xml
+TOR_feedback/Images/p04/original/train/lacroix apricot/lacroix apricot_1555597107425.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lacroix apricot/lacroix apricot_1555597107425.xml
+TOR_feedback/Images/p08/original/train/diet coke/diet coke_1556309318566.jpg	TOR_feedback/WholeBBVOC/p08/original/train/diet coke/diet coke_1556309318566.xml
+TOR_feedback/Images/p03/original/test1/pike place roast/test1_1555086494211.jpg	TOR_feedback/WholeBBVOC/p03/original/test1/pike place roast/test1_1555086494211.xml
+TOR_feedback/Images/p01/original/test1/chicken broth/test1_1554924775655.jpg	TOR_feedback/WholeBBVOC/p01/original/test1/chicken broth/test1_1554924775655.xml
+TOR_feedback/Images/p09/original/train/cheetos/cheetos_1556324475647.jpg	TOR_feedback/WholeBBVOC/p09/original/train/cheetos/cheetos_1556324475647.xml
+TOR_feedback/Images/p01/original/train/chicken broth/chicken broth_1554921550676.jpg	TOR_feedback/WholeBBVOC/p01/original/train/chicken broth/chicken broth_1554921550676.xml
+TOR_feedback/Images/p03/original/train/diet coke/diet coke_1555080268303.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diet coke/diet coke_1555080268303.xml
+TOR_feedback/Images/p07/original/train/chicken broth/chicken broth_1556291558990.jpg	TOR_feedback/WholeBBVOC/p07/original/train/chicken broth/chicken broth_1556291558990.xml
+TOR_feedback/Images/p06/original/train/chewy bars/chewy bars_1556231051985.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chewy bars/chewy bars_1556231051985.xml
+TOR_feedback/Images/p05/original/train/chewy bars/chewy bars_1556147227688.jpg	TOR_feedback/WholeBBVOC/p05/original/train/chewy bars/chewy bars_1556147227688.xml
+TOR_feedback/Images/p02/original/train/pike place roast/pike place roast_1555000589551.jpg	TOR_feedback/WholeBBVOC/p02/original/train/pike place roast/pike place roast_1555000589551.xml
+TOR_feedback/Images/p07/original/train/oregano/oregano_1556292165957.jpg	TOR_feedback/WholeBBVOC/p07/original/train/oregano/oregano_1556292165957.xml
+TOR_feedback/Images/p04/original/train/lacroix mango/lacroix mango_1555598000911.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lacroix mango/lacroix mango_1555598000911.xml
+TOR_feedback/Images/p07/original/train/lacroix apricot/lacroix apricot_1556294368680.jpg	TOR_feedback/WholeBBVOC/p07/original/train/lacroix apricot/lacroix apricot_1556294368680.xml
+TOR_feedback/Images/p05/original/test1/fritos/test1_1556150367647.jpg	TOR_feedback/WholeBBVOC/p05/original/test1/fritos/test1_1556150367647.xml
+TOR_feedback/Images/p02/original/train/caramel coffee/caramel coffee_1555000192351.jpg	TOR_feedback/WholeBBVOC/p02/original/train/caramel coffee/caramel coffee_1555000192351.xml
+TOR_feedback/Images/p05/original/train/diet coke/diet coke_1556148638452.jpg	TOR_feedback/WholeBBVOC/p05/original/train/diet coke/diet coke_1556148638452.xml
+TOR_feedback/Images/p01/original/test2/caramel coffee/test2_1554926947388.jpg	TOR_feedback/WholeBBVOC/p01/original/test2/caramel coffee/test2_1554926947388.xml
+TOR_feedback/Images/p02/original/test1/fritos/test1_1555001076887.jpg	TOR_feedback/WholeBBVOC/p02/original/test1/fritos/test1_1555001076887.xml
+TOR_feedback/Images/p02/original/train/pike place roast/pike place roast_1555000596127.jpg	TOR_feedback/WholeBBVOC/p02/original/train/pike place roast/pike place roast_1555000596127.xml
+TOR_feedback/Images/p02/original/test1/chicken broth/test1_1555001092783.jpg	TOR_feedback/WholeBBVOC/p02/original/test1/chicken broth/test1_1555001092783.xml
+TOR_feedback/Images/p08/original/test1/pike place roast/test1_1556310384766.jpg	TOR_feedback/WholeBBVOC/p08/original/test1/pike place roast/test1_1556310384766.xml
+TOR_feedback/Images/p03/original/train/caramel coffee/caramel coffee_1555080839872.jpg	TOR_feedback/WholeBBVOC/p03/original/train/caramel coffee/caramel coffee_1555080839872.xml
+TOR_feedback/Images/p04/original/train/lacroix mango/lacroix mango_1555597978341.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lacroix mango/lacroix mango_1555597978341.xml
+TOR_feedback/Images/p02/original/train/oregano/oregano_1554996781770.jpg	TOR_feedback/WholeBBVOC/p02/original/train/oregano/oregano_1554996781770.xml
+TOR_feedback/Images/p06/original/train/coca cola/coca cola_1556231506546.jpg	TOR_feedback/WholeBBVOC/p06/original/train/coca cola/coca cola_1556231506546.xml
+TOR_feedback/Images/p06/original/train/chicken broth/chicken broth_1556230242940.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chicken broth/chicken broth_1556230242940.xml
+TOR_feedback/Images/p04/original/test1/chewy bars/test1_1555600059123.jpg	TOR_feedback/WholeBBVOC/p04/original/test1/chewy bars/test1_1555600059123.xml
+TOR_feedback/Images/p05/original/test2/chewy bars/test2_1556151853901.jpg	TOR_feedback/WholeBBVOC/p05/original/test2/chewy bars/test2_1556151853901.xml
+TOR_feedback/Images/p07/original/train/caramel coffee/caramel coffee_1556292628401.jpg	TOR_feedback/WholeBBVOC/p07/original/train/caramel coffee/caramel coffee_1556292628401.xml
+TOR_feedback/Images/p03/original/train/diced tomatoes/diced tomatoes_1555083240913.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diced tomatoes/diced tomatoes_1555083240913.xml
+TOR_feedback/Images/p06/original/train/chewy bars/chewy bars_1556230994428.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chewy bars/chewy bars_1556230994428.xml
+TOR_feedback/Images/p02/original/train/dill/dill_1554997234543.jpg	TOR_feedback/WholeBBVOC/p02/original/train/dill/dill_1554997234543.xml
+TOR_feedback/Images/p06/original/train/cheetos/cheetos_1556231898976.jpg	TOR_feedback/WholeBBVOC/p06/original/train/cheetos/cheetos_1556231898976.xml
+TOR_feedback/Images/p09/original/train/dill/dill_1556325903083.jpg	TOR_feedback/WholeBBVOC/p09/original/train/dill/dill_1556325903083.xml
+TOR_feedback/Images/p09/original/train/pike place roast/pike place roast_1556323676647.jpg	TOR_feedback/WholeBBVOC/p09/original/train/pike place roast/pike place roast_1556323676647.xml
+TOR_feedback/Images/p06/original/train/diet coke/diet coke_1556228656387.jpg	TOR_feedback/WholeBBVOC/p06/original/train/diet coke/diet coke_1556228656387.xml
+TOR_feedback/Images/p04/original/train/dill/dill_1555598737342.jpg	TOR_feedback/WholeBBVOC/p04/original/train/dill/dill_1555598737342.xml
+TOR_feedback/Images/p09/original/test1/diced tomatoes/test1_1556327170837.jpg	TOR_feedback/WholeBBVOC/p09/original/test1/diced tomatoes/test1_1556327170837.xml
+TOR_feedback/Images/p01/original/train/pike place roast/pike place roast_1554920926941.jpg	TOR_feedback/WholeBBVOC/p01/original/train/pike place roast/pike place roast_1554920926941.xml
+TOR_feedback/Images/p09/original/test2/diced tomatoes/test2_1556328858287.jpg	TOR_feedback/WholeBBVOC/p09/original/test2/diced tomatoes/test2_1556328858287.xml
+TOR_feedback/Images/p09/original/test2/lacroix apricot/test2_1556328825858.jpg	TOR_feedback/WholeBBVOC/p09/original/test2/lacroix apricot/test2_1556328825858.xml
+TOR_feedback/Images/p02/original/train/caramel coffee/caramel coffee_1555000263770.jpg	TOR_feedback/WholeBBVOC/p02/original/train/caramel coffee/caramel coffee_1555000263770.xml
+TOR_feedback/Images/p06/original/train/oregano/oregano_1556232444445.jpg	TOR_feedback/WholeBBVOC/p06/original/train/oregano/oregano_1556232444445.xml
+TOR_feedback/Images/p02/original/train/baking soda/baking soda_1554999503099.jpg	TOR_feedback/WholeBBVOC/p02/original/train/baking soda/baking soda_1554999503099.xml
+TOR_feedback/Images/p09/original/train/diet coke/diet coke_1556324846844.jpg	TOR_feedback/WholeBBVOC/p09/original/train/diet coke/diet coke_1556324846844.xml
+TOR_feedback/Images/p09/original/train/diet coke/diet coke_1556324840223.jpg	TOR_feedback/WholeBBVOC/p09/original/train/diet coke/diet coke_1556324840223.xml
+TOR_feedback/Images/p06/original/train/oregano/oregano_1556232334502.jpg	TOR_feedback/WholeBBVOC/p06/original/train/oregano/oregano_1556232334502.xml
+TOR_feedback/Images/p04/original/train/caramel coffee/caramel coffee_1555597836940.jpg	TOR_feedback/WholeBBVOC/p04/original/train/caramel coffee/caramel coffee_1555597836940.xml
+TOR_feedback/Images/p03/original/test1/lays/test1_1555086021936.jpg	TOR_feedback/WholeBBVOC/p03/original/test1/lays/test1_1555086021936.xml
+TOR_feedback/Images/p09/original/test2/fritos/test2_1556328839128.jpg	TOR_feedback/WholeBBVOC/p09/original/test2/fritos/test2_1556328839128.xml
+TOR_feedback/Images/p08/original/train/pike place roast/pike place roast_1556305487332.jpg	TOR_feedback/WholeBBVOC/p08/original/train/pike place roast/pike place roast_1556305487332.xml
+TOR_feedback/Images/p04/original/train/diet coke/diet coke_1555598841277.jpg	TOR_feedback/WholeBBVOC/p04/original/train/diet coke/diet coke_1555598841277.xml
+TOR_feedback/Images/p04/original/train/fritos/fritos_1555597769360.jpg	TOR_feedback/WholeBBVOC/p04/original/train/fritos/fritos_1555597769360.xml
+TOR_feedback/Images/p01/original/test1/dill/test1_1554923868892.jpg	TOR_feedback/WholeBBVOC/p01/original/test1/dill/test1_1554923868892.xml
+TOR_feedback/Images/p02/original/train/baking soda/baking soda_1554999538850.jpg	TOR_feedback/WholeBBVOC/p02/original/train/baking soda/baking soda_1554999538850.xml
+TOR_feedback/Images/p08/original/train/fritos/fritos_1556307702222.jpg	TOR_feedback/WholeBBVOC/p08/original/train/fritos/fritos_1556307702222.xml
+TOR_feedback/Images/p03/original/train/lays/lay's_1555080495087.jpg	TOR_feedback/WholeBBVOC/p03/original/train/lays/lay's_1555080495087.xml
+TOR_feedback/Images/p09/original/test2/lacroix mango/test2_1556328279255.jpg	TOR_feedback/WholeBBVOC/p09/original/test2/lacroix mango/test2_1556328279255.xml
+TOR_feedback/Images/p02/original/train/caramel coffee/caramel coffee_1555000224885.jpg	TOR_feedback/WholeBBVOC/p02/original/train/caramel coffee/caramel coffee_1555000224885.xml
+TOR_feedback/Images/p04/original/train/lays/lay's_1555598934462.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lays/lay's_1555598934462.xml
+TOR_feedback/Images/p04/original/train/diet coke/diet coke_1555598843692.jpg	TOR_feedback/WholeBBVOC/p04/original/train/diet coke/diet coke_1555598843692.xml
+TOR_feedback/Images/p07/original/train/lacroix mango/lacroix mango_1556295432595.jpg	TOR_feedback/WholeBBVOC/p07/original/train/lacroix mango/lacroix mango_1556295432595.xml
+TOR_feedback/Images/p05/original/test2/diced tomatoes/test2_1556152038305.jpg	TOR_feedback/WholeBBVOC/p05/original/test2/diced tomatoes/test2_1556152038305.xml
+TOR_feedback/Images/p08/original/test2/lays/test2_1556313358448.jpg	TOR_feedback/WholeBBVOC/p08/original/test2/lays/test2_1556313358448.xml
+TOR_feedback/Images/p03/original/test1/caramel coffee/test1_1555086827196.jpg	TOR_feedback/WholeBBVOC/p03/original/test1/caramel coffee/test1_1555086827196.xml
+TOR_feedback/Images/p04/original/train/lays/lay's_1555598968505.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lays/lay's_1555598968505.xml
+TOR_feedback/Images/p01/original/train/lays/lay's_1554922078960.jpg	TOR_feedback/WholeBBVOC/p01/original/train/lays/lay's_1554922078960.xml
+TOR_feedback/Images/p07/original/train/dill/dill_1556293597614.jpg	TOR_feedback/WholeBBVOC/p07/original/train/dill/dill_1556293597614.xml
+TOR_feedback/Images/p04/original/train/fritos/fritos_1555597674421.jpg	TOR_feedback/WholeBBVOC/p04/original/train/fritos/fritos_1555597674421.xml
+TOR_feedback/Images/p02/original/test2/coca cola/test2_1555004162261.jpg	TOR_feedback/WholeBBVOC/p02/original/test2/coca cola/test2_1555004162261.xml
+TOR_feedback/Images/p01/original/train/fritos/fritos_1554921848136.jpg	TOR_feedback/WholeBBVOC/p01/original/train/fritos/fritos_1554921848136.xml
+TOR_feedback/Images/p07/original/train/baking soda/baking soda_1556295227700.jpg	TOR_feedback/WholeBBVOC/p07/original/train/baking soda/baking soda_1556295227700.xml
+TOR_feedback/Images/p07/original/train/chicken broth/chicken broth_1556291480188.jpg	TOR_feedback/WholeBBVOC/p07/original/train/chicken broth/chicken broth_1556291480188.xml
+TOR_feedback/Images/p08/original/train/oregano/oregano_1556307343253.jpg	TOR_feedback/WholeBBVOC/p08/original/train/oregano/oregano_1556307343253.xml
+TOR_feedback/Images/p03/original/train/baking soda/baking soda_1555081426457.jpg	TOR_feedback/WholeBBVOC/p03/original/train/baking soda/baking soda_1555081426457.xml
+TOR_feedback/Images/p03/original/train/diet coke/diet coke_1555079980351.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diet coke/diet coke_1555079980351.xml
+TOR_feedback/Images/p09/original/train/baking soda/baking soda_1556325317151.jpg	TOR_feedback/WholeBBVOC/p09/original/train/baking soda/baking soda_1556325317151.xml
+TOR_feedback/Images/p01/original/test1/dill/test1_1554924762284.jpg	TOR_feedback/WholeBBVOC/p01/original/test1/dill/test1_1554924762284.xml
+TOR_feedback/Images/p07/original/train/baking soda/baking soda_1556295267483.jpg	TOR_feedback/WholeBBVOC/p07/original/train/baking soda/baking soda_1556295267483.xml
+TOR_feedback/Images/p08/original/train/coca cola/coca cola_1556307544062.jpg	TOR_feedback/WholeBBVOC/p08/original/train/coca cola/coca cola_1556307544062.xml
+TOR_feedback/Images/p05/original/train/oregano/oregano_1556148081268.jpg	TOR_feedback/WholeBBVOC/p05/original/train/oregano/oregano_1556148081268.xml
+TOR_feedback/Images/p06/original/train/lacroix apricot/lacroix apricot_1556232107218.jpg	TOR_feedback/WholeBBVOC/p06/original/train/lacroix apricot/lacroix apricot_1556232107218.xml
+TOR_feedback/Images/p02/original/train/oregano/oregano_1554996678286.jpg	TOR_feedback/WholeBBVOC/p02/original/train/oregano/oregano_1554996678286.xml
+TOR_feedback/Images/p07/original/test2/fritos/test2_1556298707303.jpg	TOR_feedback/WholeBBVOC/p07/original/test2/fritos/test2_1556298707303.xml
+TOR_feedback/Images/p05/original/train/caramel coffee/caramel coffee_1556148131626.jpg	TOR_feedback/WholeBBVOC/p05/original/train/caramel coffee/caramel coffee_1556148131626.xml
+TOR_feedback/Images/p09/original/train/caramel coffee/caramel coffee_1556324220250.jpg	TOR_feedback/WholeBBVOC/p09/original/train/caramel coffee/caramel coffee_1556324220250.xml
+TOR_feedback/Images/p01/original/train/baking soda/baking soda_1554920685297.jpg	TOR_feedback/WholeBBVOC/p01/original/train/baking soda/baking soda_1554920685297.xml
+TOR_feedback/Images/p09/original/train/diced tomatoes/diced tomatoes_1556325750703.jpg	TOR_feedback/WholeBBVOC/p09/original/train/diced tomatoes/diced tomatoes_1556325750703.xml
+TOR_feedback/Images/p02/original/test1/lacroix apricot/test1_1555001394036.jpg	TOR_feedback/WholeBBVOC/p02/original/test1/lacroix apricot/test1_1555001394036.xml
+TOR_feedback/Images/p07/original/train/cheetos/cheetos_1556294772810.jpg	TOR_feedback/WholeBBVOC/p07/original/train/cheetos/cheetos_1556294772810.xml
+TOR_feedback/Images/p03/original/train/diet coke/diet coke_1555080071854.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diet coke/diet coke_1555080071854.xml
+TOR_feedback/Images/p07/original/train/baking soda/baking soda_1556295236484.jpg	TOR_feedback/WholeBBVOC/p07/original/train/baking soda/baking soda_1556295236484.xml
+TOR_feedback/Images/p08/original/train/diet coke/diet coke_1556309309754.jpg	TOR_feedback/WholeBBVOC/p08/original/train/diet coke/diet coke_1556309309754.xml
+TOR_feedback/Images/p06/original/test1/diced tomatoes/test1_1556233487548.jpg	TOR_feedback/WholeBBVOC/p06/original/test1/diced tomatoes/test1_1556233487548.xml
+TOR_feedback/Images/p01/original/train/lacroix mango/lacroix mango_1554920605005.jpg	TOR_feedback/WholeBBVOC/p01/original/train/lacroix mango/lacroix mango_1554920605005.xml
+TOR_feedback/Images/p05/original/train/cheetos/cheetos_1556148383083.jpg	TOR_feedback/WholeBBVOC/p05/original/train/cheetos/cheetos_1556148383083.xml
+TOR_feedback/Images/p03/original/train/fritos/fritos_1555083575891.jpg	TOR_feedback/WholeBBVOC/p03/original/train/fritos/fritos_1555083575891.xml
+TOR_feedback/Images/p03/original/train/diced tomatoes/diced tomatoes_1555083257630.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diced tomatoes/diced tomatoes_1555083257630.xml
+TOR_feedback/Images/p06/original/train/caramel coffee/caramel coffee_1556229670716.jpg	TOR_feedback/WholeBBVOC/p06/original/train/caramel coffee/caramel coffee_1556229670716.xml
+TOR_feedback/Images/p02/original/test1/lacroix apricot/test1_1555000818396.jpg	TOR_feedback/WholeBBVOC/p02/original/test1/lacroix apricot/test1_1555000818396.xml
+TOR_feedback/Images/p07/original/train/coca cola/coca cola_1556293951378.jpg	TOR_feedback/WholeBBVOC/p07/original/train/coca cola/coca cola_1556293951378.xml
+TOR_feedback/Images/p07/original/train/lacroix apricot/lacroix apricot_1556294433090.jpg	TOR_feedback/WholeBBVOC/p07/original/train/lacroix apricot/lacroix apricot_1556294433090.xml
+TOR_feedback/Images/p07/original/train/lays/lays_1556293797149.jpg	TOR_feedback/WholeBBVOC/p07/original/train/lays/lays_1556293797149.xml
+TOR_feedback/Images/p02/original/test1/oregano/test1_1555001471062.jpg	TOR_feedback/WholeBBVOC/p02/original/test1/oregano/test1_1555001471062.xml
+TOR_feedback/Images/p01/original/train/dill/dill_1554921981314.jpg	TOR_feedback/WholeBBVOC/p01/original/train/dill/dill_1554921981314.xml
+TOR_feedback/Images/p05/original/train/oregano/oregano_1556147984055.jpg	TOR_feedback/WholeBBVOC/p05/original/train/oregano/oregano_1556147984055.xml
+TOR_feedback/Images/p08/original/test1/chicken broth/test1_1556310441785.jpg	TOR_feedback/WholeBBVOC/p08/original/test1/chicken broth/test1_1556310441785.xml
+TOR_feedback/Images/p04/original/train/lacroix apricot/lacroix apricot_1555597161638.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lacroix apricot/lacroix apricot_1555597161638.xml
+TOR_feedback/Images/p04/original/train/chicken broth/chicken broth_1555599277965.jpg	TOR_feedback/WholeBBVOC/p04/original/train/chicken broth/chicken broth_1555599277965.xml
+TOR_feedback/Images/p07/original/train/fritos/fritos_1556294625751.jpg	TOR_feedback/WholeBBVOC/p07/original/train/fritos/fritos_1556294625751.xml
+TOR_feedback/Images/p04/original/train/diet coke/diet coke_1555598865165.jpg	TOR_feedback/WholeBBVOC/p04/original/train/diet coke/diet coke_1555598865165.xml
+TOR_feedback/Images/p03/original/train/caramel coffee/caramel coffee_1555080896255.jpg	TOR_feedback/WholeBBVOC/p03/original/train/caramel coffee/caramel coffee_1555080896255.xml
+TOR_feedback/Images/p06/original/test2/dill/test2_1556236114010.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/dill/test2_1556236114010.xml
+TOR_feedback/Images/p08/original/train/lacroix mango/lacroix mango_1556307213344.jpg	TOR_feedback/WholeBBVOC/p08/original/train/lacroix mango/lacroix mango_1556307213344.xml
+TOR_feedback/Images/p08/original/train/lays/lays_1556307940940.jpg	TOR_feedback/WholeBBVOC/p08/original/train/lays/lays_1556307940940.xml
+TOR_feedback/Images/p04/original/train/lays/lay's_1555598931370.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lays/lay's_1555598931370.xml
+TOR_feedback/Images/p04/original/train/pike place roast/pike place roast_1555597396300.jpg	TOR_feedback/WholeBBVOC/p04/original/train/pike place roast/pike place roast_1555597396300.xml
+TOR_feedback/Images/p04/original/train/lays/lay's_1555598974013.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lays/lay's_1555598974013.xml
+TOR_feedback/Images/p06/original/train/coca cola/coca cola_1556231561492.jpg	TOR_feedback/WholeBBVOC/p06/original/train/coca cola/coca cola_1556231561492.xml
+TOR_feedback/Images/p09/original/train/lacroix apricot/lacroix apricot_1556325867060.jpg	TOR_feedback/WholeBBVOC/p09/original/train/lacroix apricot/lacroix apricot_1556325867060.xml
+TOR_feedback/Images/p03/original/train/coca cola/coca cola_1555081774946.jpg	TOR_feedback/WholeBBVOC/p03/original/train/coca cola/coca cola_1555081774946.xml
+TOR_feedback/Images/p08/original/test2/lacroix mango/test2_1556313374999.jpg	TOR_feedback/WholeBBVOC/p08/original/test2/lacroix mango/test2_1556313374999.xml
+TOR_feedback/Images/p09/original/test1/pike place roast/test1_1556327176835.jpg	TOR_feedback/WholeBBVOC/p09/original/test1/pike place roast/test1_1556327176835.xml
+TOR_feedback/Images/p05/original/train/caramel coffee/caramel coffee_1556148242053.jpg	TOR_feedback/WholeBBVOC/p05/original/train/caramel coffee/caramel coffee_1556148242053.xml
+TOR_feedback/Images/p09/original/train/lays/lays_1556325127141.jpg	TOR_feedback/WholeBBVOC/p09/original/train/lays/lays_1556325127141.xml
+TOR_feedback/Images/p01/original/train/fritos/fritos_1554921822445.jpg	TOR_feedback/WholeBBVOC/p01/original/train/fritos/fritos_1554921822445.xml
+TOR_feedback/Images/p08/original/test2/oregano/test2_1556313640882.jpg	TOR_feedback/WholeBBVOC/p08/original/test2/oregano/test2_1556313640882.xml
+TOR_feedback/Images/p07/original/test1/baking soda/test1_1556296911941.jpg	TOR_feedback/WholeBBVOC/p07/original/test1/baking soda/test1_1556296911941.xml
+TOR_feedback/Images/p07/original/train/oregano/oregano_1556292110668.jpg	TOR_feedback/WholeBBVOC/p07/original/train/oregano/oregano_1556292110668.xml
+TOR_feedback/Images/p04/original/train/baking soda/baking soda_1555598306159.jpg	TOR_feedback/WholeBBVOC/p04/original/train/baking soda/baking soda_1555598306159.xml
+TOR_feedback/Images/p06/original/train/oregano/oregano_1556232369200.jpg	TOR_feedback/WholeBBVOC/p06/original/train/oregano/oregano_1556232369200.xml
+TOR_feedback/Images/p09/original/test1/pike place roast/test1_1556326594028.jpg	TOR_feedback/WholeBBVOC/p09/original/test1/pike place roast/test1_1556326594028.xml
+TOR_feedback/Images/p09/original/train/cheetos/cheetos_1556324489810.jpg	TOR_feedback/WholeBBVOC/p09/original/train/cheetos/cheetos_1556324489810.xml
+TOR_feedback/Images/p04/original/train/diced tomatoes/diced tomatoes_1555597580916.jpg	TOR_feedback/WholeBBVOC/p04/original/train/diced tomatoes/diced tomatoes_1555597580916.xml
+TOR_feedback/Images/p03/original/train/chewy bars/chewy bars_1555083386666.jpg	TOR_feedback/WholeBBVOC/p03/original/train/chewy bars/chewy bars_1555083386666.xml
+TOR_feedback/Images/p07/original/test2/coca cola/test2_1556297761589.jpg	TOR_feedback/WholeBBVOC/p07/original/test2/coca cola/test2_1556297761589.xml
+TOR_feedback/Images/p06/original/train/lacroix mango/lacroix mango_1556230465946.jpg	TOR_feedback/WholeBBVOC/p06/original/train/lacroix mango/lacroix mango_1556230465946.xml
+TOR_feedback/Images/p05/original/train/lacroix mango/lacroix mango_1556149377428.jpg	TOR_feedback/WholeBBVOC/p05/original/train/lacroix mango/lacroix mango_1556149377428.xml
+TOR_feedback/Images/p07/original/train/chewy bars/chewy bars_1556295742005.jpg	TOR_feedback/WholeBBVOC/p07/original/train/chewy bars/chewy bars_1556295742005.xml
+TOR_feedback/Images/p04/original/train/lacroix apricot/lacroix apricot_1555597120841.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lacroix apricot/lacroix apricot_1555597120841.xml
+TOR_feedback/Images/p04/original/train/dill/dill_1555598697548.jpg	TOR_feedback/WholeBBVOC/p04/original/train/dill/dill_1555598697548.xml
+TOR_feedback/Images/p03/original/train/lacroix mango/lacroix mango_1555079588649.jpg	TOR_feedback/WholeBBVOC/p03/original/train/lacroix mango/lacroix mango_1555079588649.xml
+TOR_feedback/Images/p05/original/train/coca cola/coca cola_1556149713547.jpg	TOR_feedback/WholeBBVOC/p05/original/train/coca cola/coca cola_1556149713547.xml
+TOR_feedback/Images/p01/original/train/pike place roast/pike place roast_1554920974954.jpg	TOR_feedback/WholeBBVOC/p01/original/train/pike place roast/pike place roast_1554920974954.xml
+TOR_feedback/Images/p04/original/train/chewy bars/chewy bars_1555598623675.jpg	TOR_feedback/WholeBBVOC/p04/original/train/chewy bars/chewy bars_1555598623675.xml
+TOR_feedback/Images/p04/original/train/diced tomatoes/diced tomatoes_1555597611212.jpg	TOR_feedback/WholeBBVOC/p04/original/train/diced tomatoes/diced tomatoes_1555597611212.xml
+TOR_feedback/Images/p01/original/train/oregano/oregano_1554922596455.jpg	TOR_feedback/WholeBBVOC/p01/original/train/oregano/oregano_1554922596455.xml
+TOR_feedback/Images/p07/original/train/oregano/oregano_1556292256501.jpg	TOR_feedback/WholeBBVOC/p07/original/train/oregano/oregano_1556292256501.xml
+TOR_feedback/Images/p06/original/train/baking soda/baking soda_1556231468719.jpg	TOR_feedback/WholeBBVOC/p06/original/train/baking soda/baking soda_1556231468719.xml
+TOR_feedback/Images/p04/original/test1/fritos/test1_1555600700676.jpg	TOR_feedback/WholeBBVOC/p04/original/test1/fritos/test1_1555600700676.xml
+TOR_feedback/Images/p08/original/train/diet coke/diet coke_1556309278512.jpg	TOR_feedback/WholeBBVOC/p08/original/train/diet coke/diet coke_1556309278512.xml
+TOR_feedback/Images/p09/original/train/chicken broth/chicken broth_1556325062963.jpg	TOR_feedback/WholeBBVOC/p09/original/train/chicken broth/chicken broth_1556325062963.xml
+TOR_feedback/Images/p05/original/train/diced tomatoes/diced tomatoes_1556149463947.jpg	TOR_feedback/WholeBBVOC/p05/original/train/diced tomatoes/diced tomatoes_1556149463947.xml
+TOR_feedback/Images/p06/original/train/caramel coffee/caramel coffee_1556229911856.jpg	TOR_feedback/WholeBBVOC/p06/original/train/caramel coffee/caramel coffee_1556229911856.xml
+TOR_feedback/Images/p02/original/train/chewy bars/chewy bars_1554998265008.jpg	TOR_feedback/WholeBBVOC/p02/original/train/chewy bars/chewy bars_1554998265008.xml
+TOR_feedback/Images/p04/original/test1/lacroix apricot/test1_1555600509707.jpg	TOR_feedback/WholeBBVOC/p04/original/test1/lacroix apricot/test1_1555600509707.xml
+TOR_feedback/Images/p09/original/test1/coca cola/test1_1556326875097.jpg	TOR_feedback/WholeBBVOC/p09/original/test1/coca cola/test1_1556326875097.xml
+TOR_feedback/Images/p07/original/test2/oregano/test2_1556298763619.jpg	TOR_feedback/WholeBBVOC/p07/original/test2/oregano/test2_1556298763619.xml
+TOR_feedback/Images/p04/original/test2/fritos/test2_1555603839539.jpg	TOR_feedback/WholeBBVOC/p04/original/test2/fritos/test2_1555603839539.xml
+TOR_feedback/Images/p06/original/test2/chicken broth/test2_1556235465329.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/chicken broth/test2_1556235465329.xml
+TOR_feedback/Images/p05/original/test1/fritos/test1_1556150519783.jpg	TOR_feedback/WholeBBVOC/p05/original/test1/fritos/test1_1556150519783.xml
+TOR_feedback/Images/p05/original/test2/baking soda/test2_1556151837203.jpg	TOR_feedback/WholeBBVOC/p05/original/test2/baking soda/test2_1556151837203.xml
+TOR_feedback/Images/p09/original/train/diet coke/diet coke_1556324778228.jpg	TOR_feedback/WholeBBVOC/p09/original/train/diet coke/diet coke_1556324778228.xml
+TOR_feedback/Images/p09/original/test2/oregano/test2_1556328627307.jpg	TOR_feedback/WholeBBVOC/p09/original/test2/oregano/test2_1556328627307.xml
+TOR_feedback/Images/p08/original/train/coca cola/coca cola_1556307546384.jpg	TOR_feedback/WholeBBVOC/p08/original/train/coca cola/coca cola_1556307546384.xml
+TOR_feedback/Images/p09/original/train/coca cola/coca cola_1556325707836.jpg	TOR_feedback/WholeBBVOC/p09/original/train/coca cola/coca cola_1556325707836.xml
+TOR_feedback/Images/p04/original/train/chewy bars/chewy bars_1555598546653.jpg	TOR_feedback/WholeBBVOC/p04/original/train/chewy bars/chewy bars_1555598546653.xml
+TOR_feedback/Images/p08/original/train/pike place roast/pike place roast_1556306047969.jpg	TOR_feedback/WholeBBVOC/p08/original/train/pike place roast/pike place roast_1556306047969.xml
+TOR_feedback/Images/p02/original/test2/lacroix apricot/test2_1555004057092.jpg	TOR_feedback/WholeBBVOC/p02/original/test2/lacroix apricot/test2_1555004057092.xml
+TOR_feedback/Images/p04/original/test2/oregano/test2_1555602380845.jpg	TOR_feedback/WholeBBVOC/p04/original/test2/oregano/test2_1555602380845.xml
+TOR_feedback/Images/p02/original/train/cheetos/cheetos_1554998940705.jpg	TOR_feedback/WholeBBVOC/p02/original/train/cheetos/cheetos_1554998940705.xml
+TOR_feedback/Images/p07/original/train/oregano/oregano_1556291903493.jpg	TOR_feedback/WholeBBVOC/p07/original/train/oregano/oregano_1556291903493.xml
+TOR_feedback/Images/p06/original/train/diced tomatoes/diced tomatoes_1556230645419.jpg	TOR_feedback/WholeBBVOC/p06/original/train/diced tomatoes/diced tomatoes_1556230645419.xml
+TOR_feedback/Images/p05/original/train/cheetos/cheetos_1556148366393.jpg	TOR_feedback/WholeBBVOC/p05/original/train/cheetos/cheetos_1556148366393.xml
+TOR_feedback/Images/p08/original/train/chicken broth/chicken broth_1556309743536.jpg	TOR_feedback/WholeBBVOC/p08/original/train/chicken broth/chicken broth_1556309743536.xml
+TOR_feedback/Images/p06/original/train/lacroix mango/lacroix mango_1556230586076.jpg	TOR_feedback/WholeBBVOC/p06/original/train/lacroix mango/lacroix mango_1556230586076.xml
+TOR_feedback/Images/p09/original/test1/oregano/test1_1556326907853.jpg	TOR_feedback/WholeBBVOC/p09/original/test1/oregano/test1_1556326907853.xml
+TOR_feedback/Images/p06/original/test1/pike place roast/test1_1556233578324.jpg	TOR_feedback/WholeBBVOC/p06/original/test1/pike place roast/test1_1556233578324.xml
+TOR_feedback/Images/p08/original/train/cheetos/cheetos_1556308091493.jpg	TOR_feedback/WholeBBVOC/p08/original/train/cheetos/cheetos_1556308091493.xml
+TOR_feedback/Images/p02/original/train/fritos/fritos_1554997575329.jpg	TOR_feedback/WholeBBVOC/p02/original/train/fritos/fritos_1554997575329.xml
+TOR_feedback/Images/p03/original/train/diet coke/diet coke_1555080190757.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diet coke/diet coke_1555080190757.xml
+TOR_feedback/Images/p05/original/test2/oregano/test2_1556152086796.jpg	TOR_feedback/WholeBBVOC/p05/original/test2/oregano/test2_1556152086796.xml
+TOR_feedback/Images/p09/original/train/caramel coffee/caramel coffee_1556324203748.jpg	TOR_feedback/WholeBBVOC/p09/original/train/caramel coffee/caramel coffee_1556324203748.xml
+TOR_feedback/Images/p05/original/train/lacroix apricot/lacroix apricot_1556149810439.jpg	TOR_feedback/WholeBBVOC/p05/original/train/lacroix apricot/lacroix apricot_1556149810439.xml
+TOR_feedback/Images/p06/original/test2/coca cola/test2_1556236361419.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/coca cola/test2_1556236361419.xml
+TOR_feedback/Images/p09/original/train/diet coke/diet coke_1556324813325.jpg	TOR_feedback/WholeBBVOC/p09/original/train/diet coke/diet coke_1556324813325.xml
+TOR_feedback/Images/p05/original/train/coca cola/coca cola_1556149688466.jpg	TOR_feedback/WholeBBVOC/p05/original/train/coca cola/coca cola_1556149688466.xml
+TOR_feedback/Images/p05/original/train/dill/dill_1556148737563.jpg	TOR_feedback/WholeBBVOC/p05/original/train/dill/dill_1556148737563.xml
+TOR_feedback/Images/p07/original/train/pike place roast/pike place roast_1556294221919.jpg	TOR_feedback/WholeBBVOC/p07/original/train/pike place roast/pike place roast_1556294221919.xml
+TOR_feedback/Images/p02/original/train/lacroix mango/lacroix mango_1554996899415.jpg	TOR_feedback/WholeBBVOC/p02/original/train/lacroix mango/lacroix mango_1554996899415.xml
+TOR_feedback/Images/p07/original/test1/baking soda/test1_1556296731993.jpg	TOR_feedback/WholeBBVOC/p07/original/test1/baking soda/test1_1556296731993.xml
+TOR_feedback/Images/p06/original/train/lacroix mango/lacroix mango_1556230504996.jpg	TOR_feedback/WholeBBVOC/p06/original/train/lacroix mango/lacroix mango_1556230504996.xml
+TOR_feedback/Images/p08/original/test1/chewy bars/test1_1556310757253.jpg	TOR_feedback/WholeBBVOC/p08/original/test1/chewy bars/test1_1556310757253.xml
+TOR_feedback/Images/p08/original/test2/caramel coffee/test2_1556312487019.jpg	TOR_feedback/WholeBBVOC/p08/original/test2/caramel coffee/test2_1556312487019.xml
+TOR_feedback/Images/p05/original/train/baking soda/baking soda_1556148929799.jpg	TOR_feedback/WholeBBVOC/p05/original/train/baking soda/baking soda_1556148929799.xml
+TOR_feedback/Images/p04/original/train/lacroix apricot/lacroix apricot_1555597050255.jpg	TOR_feedback/WholeBBVOC/p04/original/train/lacroix apricot/lacroix apricot_1555597050255.xml
+TOR_feedback/Images/p04/original/test2/lacroix apricot/test2_1555603144828.jpg	TOR_feedback/WholeBBVOC/p04/original/test2/lacroix apricot/test2_1555603144828.xml
+TOR_feedback/Images/p04/original/train/coca cola/coca cola_1555599135825.jpg	TOR_feedback/WholeBBVOC/p04/original/train/coca cola/coca cola_1555599135825.xml
+TOR_feedback/Images/p08/original/test1/coca cola/test1_1556310306622.jpg	TOR_feedback/WholeBBVOC/p08/original/test1/coca cola/test1_1556310306622.xml
+TOR_feedback/Images/p05/original/test1/lacroix apricot/test1_1556150916308.jpg	TOR_feedback/WholeBBVOC/p05/original/test1/lacroix apricot/test1_1556150916308.xml
+TOR_feedback/Images/p04/original/train/caramel coffee/caramel coffee_1555597796604.jpg	TOR_feedback/WholeBBVOC/p04/original/train/caramel coffee/caramel coffee_1555597796604.xml
+TOR_feedback/Images/p05/original/train/lays/lay's_1556149596333.jpg	TOR_feedback/WholeBBVOC/p05/original/train/lays/lay's_1556149596333.xml
+TOR_feedback/Images/p05/original/train/diet coke/diet coke_1556148628223.jpg	TOR_feedback/WholeBBVOC/p05/original/train/diet coke/diet coke_1556148628223.xml
+TOR_feedback/Images/p04/original/train/baking soda/baking soda_1555598260751.jpg	TOR_feedback/WholeBBVOC/p04/original/train/baking soda/baking soda_1555598260751.xml
+TOR_feedback/Images/p06/original/train/chicken broth/chicken broth_1556230429697.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chicken broth/chicken broth_1556230429697.xml
+TOR_feedback/Images/p07/original/train/chewy bars/chewy bars_1556295773148.jpg	TOR_feedback/WholeBBVOC/p07/original/train/chewy bars/chewy bars_1556295773148.xml
+TOR_feedback/Images/p05/original/train/coca cola/coca cola_1556149645349.jpg	TOR_feedback/WholeBBVOC/p05/original/train/coca cola/coca cola_1556149645349.xml
+TOR_feedback/Images/p06/original/test1/chicken broth/test1_1556234156484.jpg	TOR_feedback/WholeBBVOC/p06/original/test1/chicken broth/test1_1556234156484.xml
+TOR_feedback/Images/p07/original/test2/chewy bars/test2_1556298396069.jpg	TOR_feedback/WholeBBVOC/p07/original/test2/chewy bars/test2_1556298396069.xml
+TOR_feedback/Images/p05/original/train/cheetos/cheetos_1556148421531.jpg	TOR_feedback/WholeBBVOC/p05/original/train/cheetos/cheetos_1556148421531.xml
+TOR_feedback/Images/p08/original/train/pike place roast/pike place roast_1556305510098.jpg	TOR_feedback/WholeBBVOC/p08/original/train/pike place roast/pike place roast_1556305510098.xml
+TOR_feedback/Images/p07/original/test1/dill/test1_1556297007954.jpg	TOR_feedback/WholeBBVOC/p07/original/test1/dill/test1_1556297007954.xml
+TOR_feedback/Images/p07/original/train/lacroix apricot/lacroix apricot_1556294427637.jpg	TOR_feedback/WholeBBVOC/p07/original/train/lacroix apricot/lacroix apricot_1556294427637.xml
+TOR_feedback/Images/p06/original/train/chewy bars/chewy bars_1556230870991.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chewy bars/chewy bars_1556230870991.xml
+TOR_feedback/Images/p08/original/train/baking soda/baking soda_1556308266641.jpg	TOR_feedback/WholeBBVOC/p08/original/train/baking soda/baking soda_1556308266641.xml
+TOR_feedback/Images/p05/original/test1/coca cola/test1_1556150770844.jpg	TOR_feedback/WholeBBVOC/p05/original/test1/coca cola/test1_1556150770844.xml
+TOR_feedback/Images/p07/original/train/dill/dill_1556293339908.jpg	TOR_feedback/WholeBBVOC/p07/original/train/dill/dill_1556293339908.xml
+TOR_feedback/Images/p01/original/train/pike place roast/pike place roast_1554920962268.jpg	TOR_feedback/WholeBBVOC/p01/original/train/pike place roast/pike place roast_1554920962268.xml
+TOR_feedback/Images/p07/original/train/lays/lays_1556293647169.jpg	TOR_feedback/WholeBBVOC/p07/original/train/lays/lays_1556293647169.xml
+TOR_feedback/Images/p04/original/test1/pike place roast/test1_1555600540529.jpg	TOR_feedback/WholeBBVOC/p04/original/test1/pike place roast/test1_1555600540529.xml
+TOR_feedback/Images/p02/original/train/caramel coffee/caramel coffee_1555000212350.jpg	TOR_feedback/WholeBBVOC/p02/original/train/caramel coffee/caramel coffee_1555000212350.xml
+TOR_feedback/Images/p06/original/train/coca cola/coca cola_1556231492020.jpg	TOR_feedback/WholeBBVOC/p06/original/train/coca cola/coca cola_1556231492020.xml
+TOR_feedback/Images/p09/original/train/chicken broth/chicken broth_1556325050283.jpg	TOR_feedback/WholeBBVOC/p09/original/train/chicken broth/chicken broth_1556325050283.xml
+TOR_feedback/Images/p09/original/test1/baking soda/test1_1556326279454.jpg	TOR_feedback/WholeBBVOC/p09/original/test1/baking soda/test1_1556326279454.xml
+TOR_feedback/Images/p06/original/test1/lacroix apricot/test1_1556234217081.jpg	TOR_feedback/WholeBBVOC/p06/original/test1/lacroix apricot/test1_1556234217081.xml
+TOR_feedback/Images/p05/original/train/lacroix mango/lacroix mango_1556149310411.jpg	TOR_feedback/WholeBBVOC/p05/original/train/lacroix mango/lacroix mango_1556149310411.xml
+TOR_feedback/Images/p04/original/train/baking soda/baking soda_1555598390706.jpg	TOR_feedback/WholeBBVOC/p04/original/train/baking soda/baking soda_1555598390706.xml
+TOR_feedback/Images/p01/original/train/fritos/fritos_1554921735954.jpg	TOR_feedback/WholeBBVOC/p01/original/train/fritos/fritos_1554921735954.xml
+TOR_feedback/Images/p02/original/train/dill/dill_1554997128302.jpg	TOR_feedback/WholeBBVOC/p02/original/train/dill/dill_1554997128302.xml
+TOR_feedback/Images/p01/original/test2/baking soda/test2_1554926309096.jpg	TOR_feedback/WholeBBVOC/p01/original/test2/baking soda/test2_1554926309096.xml
+TOR_feedback/Images/p05/original/train/baking soda/baking soda_1556148950536.jpg	TOR_feedback/WholeBBVOC/p05/original/train/baking soda/baking soda_1556148950536.xml
+TOR_feedback/Images/p08/original/train/cheetos/cheetos_1556308015221.jpg	TOR_feedback/WholeBBVOC/p08/original/train/cheetos/cheetos_1556308015221.xml
+TOR_feedback/Images/p01/original/test2/cheetos/test2_1554927174626.jpg	TOR_feedback/WholeBBVOC/p01/original/test2/cheetos/test2_1554927174626.xml
+TOR_feedback/Images/p01/original/test2/oregano/test2_1554927592591.jpg	TOR_feedback/WholeBBVOC/p01/original/test2/oregano/test2_1554927592591.xml
+TOR_feedback/Images/p04/original/train/chewy bars/chewy bars_1555598611868.jpg	TOR_feedback/WholeBBVOC/p04/original/train/chewy bars/chewy bars_1555598611868.xml
+TOR_feedback/Images/p09/original/train/dill/dill_1556325935100.jpg	TOR_feedback/WholeBBVOC/p09/original/train/dill/dill_1556325935100.xml
+TOR_feedback/Images/p08/original/test2/fritos/test2_1556312357238.jpg	TOR_feedback/WholeBBVOC/p08/original/test2/fritos/test2_1556312357238.xml
+TOR_feedback/Images/p05/original/test2/chicken broth/test2_1556152228461.jpg	TOR_feedback/WholeBBVOC/p05/original/test2/chicken broth/test2_1556152228461.xml
+TOR_feedback/Images/p03/original/train/lays/lay's_1555080366823.jpg	TOR_feedback/WholeBBVOC/p03/original/train/lays/lay's_1555080366823.xml
+TOR_feedback/Images/p01/original/test2/baking soda/test2_1554926691147.jpg	TOR_feedback/WholeBBVOC/p01/original/test2/baking soda/test2_1554926691147.xml
+TOR_feedback/Images/p05/original/train/lacroix mango/lacroix mango_1556149342495.jpg	TOR_feedback/WholeBBVOC/p05/original/train/lacroix mango/lacroix mango_1556149342495.xml
+TOR_feedback/Images/p07/original/test1/lacroix apricot/test1_1556296547720.jpg	TOR_feedback/WholeBBVOC/p07/original/test1/lacroix apricot/test1_1556296547720.xml
+TOR_feedback/Images/p04/original/train/chicken broth/chicken broth_1555599293919.jpg	TOR_feedback/WholeBBVOC/p04/original/train/chicken broth/chicken broth_1555599293919.xml
+TOR_feedback/Images/p08/original/train/diet coke/diet coke_1556309327442.jpg	TOR_feedback/WholeBBVOC/p08/original/train/diet coke/diet coke_1556309327442.xml
+TOR_feedback/Images/p03/original/train/diced tomatoes/diced tomatoes_1555083256826.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diced tomatoes/diced tomatoes_1555083256826.xml
+TOR_feedback/Images/p09/original/test1/dill/test1_1556326315833.jpg	TOR_feedback/WholeBBVOC/p09/original/test1/dill/test1_1556326315833.xml
+TOR_feedback/Images/p07/original/train/diet coke/diet coke_1556295555766.jpg	TOR_feedback/WholeBBVOC/p07/original/train/diet coke/diet coke_1556295555766.xml
+TOR_feedback/Images/p09/original/train/lays/lays_1556325116741.jpg	TOR_feedback/WholeBBVOC/p09/original/train/lays/lays_1556325116741.xml
+TOR_feedback/Images/p04/original/train/cheetos/cheetos_1555599067113.jpg	TOR_feedback/WholeBBVOC/p04/original/train/cheetos/cheetos_1555599067113.xml
+TOR_feedback/Images/p05/original/train/chicken broth/chicken broth_1556147563285.jpg	TOR_feedback/WholeBBVOC/p05/original/train/chicken broth/chicken broth_1556147563285.xml
+TOR_feedback/Images/p06/original/train/dill/dill_1556231643802.jpg	TOR_feedback/WholeBBVOC/p06/original/train/dill/dill_1556231643802.xml
+TOR_feedback/Images/p04/original/train/fritos/fritos_1555597725383.jpg	TOR_feedback/WholeBBVOC/p04/original/train/fritos/fritos_1555597725383.xml
+TOR_feedback/Images/p08/original/train/lacroix apricot/lacroix apricot_1556306211048.jpg	TOR_feedback/WholeBBVOC/p08/original/train/lacroix apricot/lacroix apricot_1556306211048.xml
+TOR_feedback/Images/p06/original/train/baking soda/baking soda_1556231336005.jpg	TOR_feedback/WholeBBVOC/p06/original/train/baking soda/baking soda_1556231336005.xml
+TOR_feedback/Images/p05/original/train/oregano/oregano_1556147968031.jpg	TOR_feedback/WholeBBVOC/p05/original/train/oregano/oregano_1556147968031.xml
+TOR_feedback/Images/p09/original/train/baking soda/baking soda_1556325261998.jpg	TOR_feedback/WholeBBVOC/p09/original/train/baking soda/baking soda_1556325261998.xml
+TOR_feedback/Images/p01/original/train/diet coke/diet coke_1554921310309.jpg	TOR_feedback/WholeBBVOC/p01/original/train/diet coke/diet coke_1554921310309.xml
+TOR_feedback/Images/p08/original/test2/diet coke/test2_1556313504452.jpg	TOR_feedback/WholeBBVOC/p08/original/test2/diet coke/test2_1556313504452.xml
+TOR_feedback/Images/p01/original/test2/lays/test2_1554926829118.jpg	TOR_feedback/WholeBBVOC/p01/original/test2/lays/test2_1554926829118.xml
+TOR_feedback/Images/p08/original/train/lacroix apricot/lacroix apricot_1556306297247.jpg	TOR_feedback/WholeBBVOC/p08/original/train/lacroix apricot/lacroix apricot_1556306297247.xml
+TOR_feedback/Images/p07/original/test2/coca cola/test2_1556298417459.jpg	TOR_feedback/WholeBBVOC/p07/original/test2/coca cola/test2_1556298417459.xml
+TOR_feedback/Images/p03/original/train/chewy bars/chewy bars_1555083299860.jpg	TOR_feedback/WholeBBVOC/p03/original/train/chewy bars/chewy bars_1555083299860.xml
+TOR_feedback/Images/p01/original/train/coca cola/coca cola_1554922268474.jpg	TOR_feedback/WholeBBVOC/p01/original/train/coca cola/coca cola_1554922268474.xml
+TOR_feedback/Images/p07/original/train/diced tomatoes/diced tomatoes_1556295985483.jpg	TOR_feedback/WholeBBVOC/p07/original/train/diced tomatoes/diced tomatoes_1556295985483.xml
+TOR_feedback/Images/p06/original/test2/diced tomatoes/test2_1556235304355.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/diced tomatoes/test2_1556235304355.xml
+TOR_feedback/Images/p08/original/train/diced tomatoes/diced tomatoes_1556309402519.jpg	TOR_feedback/WholeBBVOC/p08/original/train/diced tomatoes/diced tomatoes_1556309402519.xml
+TOR_feedback/Images/p03/original/test1/caramel coffee/test1_1555084900713.jpg	TOR_feedback/WholeBBVOC/p03/original/test1/caramel coffee/test1_1555084900713.xml
+TOR_feedback/Images/p04/original/train/baking soda/baking soda_1555598309786.jpg	TOR_feedback/WholeBBVOC/p04/original/train/baking soda/baking soda_1555598309786.xml
+TOR_feedback/Images/p01/original/train/dill/dill_1554921956684.jpg	TOR_feedback/WholeBBVOC/p01/original/train/dill/dill_1554921956684.xml
+TOR_feedback/Images/p07/original/train/coca cola/coca cola_1556293983746.jpg	TOR_feedback/WholeBBVOC/p07/original/train/coca cola/coca cola_1556293983746.xml
+TOR_feedback/Images/p07/original/test2/lacroix apricot/test2_1556298074533.jpg	TOR_feedback/WholeBBVOC/p07/original/test2/lacroix apricot/test2_1556298074533.xml
+TOR_feedback/Images/p07/original/train/chewy bars/chewy bars_1556295759323.jpg	TOR_feedback/WholeBBVOC/p07/original/train/chewy bars/chewy bars_1556295759323.xml
+TOR_feedback/Images/p04/original/train/diced tomatoes/diced tomatoes_1555597536274.jpg	TOR_feedback/WholeBBVOC/p04/original/train/diced tomatoes/diced tomatoes_1555597536274.xml
+TOR_feedback/Images/p08/original/train/coca cola/coca cola_1556307503880.jpg	TOR_feedback/WholeBBVOC/p08/original/train/coca cola/coca cola_1556307503880.xml
+TOR_feedback/Images/p03/original/test1/baking soda/test1_1555086295435.jpg	TOR_feedback/WholeBBVOC/p03/original/test1/baking soda/test1_1555086295435.xml
+TOR_feedback/Images/p05/original/test1/dill/test1_1556150317024.jpg	TOR_feedback/WholeBBVOC/p05/original/test1/dill/test1_1556150317024.xml
+TOR_feedback/Images/p02/original/train/cheetos/cheetos_1554999026161.jpg	TOR_feedback/WholeBBVOC/p02/original/train/cheetos/cheetos_1554999026161.xml
+TOR_feedback/Images/p07/original/test1/lacroix mango/test1_1556296772681.jpg	TOR_feedback/WholeBBVOC/p07/original/test1/lacroix mango/test1_1556296772681.xml
+TOR_feedback/Images/p02/original/train/lacroix mango/lacroix mango_1554997028251.jpg	TOR_feedback/WholeBBVOC/p02/original/train/lacroix mango/lacroix mango_1554997028251.xml
+TOR_feedback/Images/p06/original/test2/lacroix apricot/test2_1556236538477.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/lacroix apricot/test2_1556236538477.xml
+TOR_feedback/Images/p07/original/train/dill/dill_1556293302303.jpg	TOR_feedback/WholeBBVOC/p07/original/train/dill/dill_1556293302303.xml
+TOR_feedback/Images/p07/original/train/caramel coffee/caramel coffee_1556292709400.jpg	TOR_feedback/WholeBBVOC/p07/original/train/caramel coffee/caramel coffee_1556292709400.xml
+TOR_feedback/Images/p01/original/train/lays/lay's_1554922090844.jpg	TOR_feedback/WholeBBVOC/p01/original/train/lays/lay's_1554922090844.xml
+TOR_feedback/Images/p07/original/train/dill/dill_1556293421398.jpg	TOR_feedback/WholeBBVOC/p07/original/train/dill/dill_1556293421398.xml
+TOR_feedback/Images/p07/original/train/fritos/fritos_1556294530339.jpg	TOR_feedback/WholeBBVOC/p07/original/train/fritos/fritos_1556294530339.xml
+TOR_feedback/Images/p07/original/test2/diet coke/test2_1556297841420.jpg	TOR_feedback/WholeBBVOC/p07/original/test2/diet coke/test2_1556297841420.xml
+TOR_feedback/Images/p03/original/train/lacroix apricot/lacroix apricot_1555083897412.jpg	TOR_feedback/WholeBBVOC/p03/original/train/lacroix apricot/lacroix apricot_1555083897412.xml
+TOR_feedback/Images/p02/original/train/chicken broth/chicken broth_1554996006014.jpg	TOR_feedback/WholeBBVOC/p02/original/train/chicken broth/chicken broth_1554996006014.xml
+TOR_feedback/Images/p06/original/train/chewy bars/chewy bars_1556231027756.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chewy bars/chewy bars_1556231027756.xml
+TOR_feedback/Images/p06/original/test1/dill/test1_1556233602935.jpg	TOR_feedback/WholeBBVOC/p06/original/test1/dill/test1_1556233602935.xml
+TOR_feedback/Images/p01/original/train/chicken broth/chicken broth_1554921538141.jpg	TOR_feedback/WholeBBVOC/p01/original/train/chicken broth/chicken broth_1554921538141.xml
+TOR_feedback/Images/p02/original/train/pike place roast/pike place roast_1555000425097.jpg	TOR_feedback/WholeBBVOC/p02/original/train/pike place roast/pike place roast_1555000425097.xml
+TOR_feedback/Images/p08/original/train/oregano/oregano_1556307284769.jpg	TOR_feedback/WholeBBVOC/p08/original/train/oregano/oregano_1556307284769.xml
+TOR_feedback/Images/p07/original/train/chicken broth/chicken broth_1556291693530.jpg	TOR_feedback/WholeBBVOC/p07/original/train/chicken broth/chicken broth_1556291693530.xml
+TOR_feedback/Images/p07/original/train/coca cola/coca cola_1556293987872.jpg	TOR_feedback/WholeBBVOC/p07/original/train/coca cola/coca cola_1556293987872.xml
+TOR_feedback/Images/p02/original/train/pike place roast/pike place roast_1555000440199.jpg	TOR_feedback/WholeBBVOC/p02/original/train/pike place roast/pike place roast_1555000440199.xml
+TOR_feedback/Images/p03/original/train/diet coke/diet coke_1555080178929.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diet coke/diet coke_1555080178929.xml
+TOR_feedback/Images/p06/original/train/baking soda/baking soda_1556231281692.jpg	TOR_feedback/WholeBBVOC/p06/original/train/baking soda/baking soda_1556231281692.xml
+TOR_feedback/Images/p07/original/train/diet coke/diet coke_1556295614713.jpg	TOR_feedback/WholeBBVOC/p07/original/train/diet coke/diet coke_1556295614713.xml
+TOR_feedback/Images/p08/original/train/baking soda/baking soda_1556308243665.jpg	TOR_feedback/WholeBBVOC/p08/original/train/baking soda/baking soda_1556308243665.xml
+TOR_feedback/Images/p05/original/train/lacroix mango/lacroix mango_1556149295614.jpg	TOR_feedback/WholeBBVOC/p05/original/train/lacroix mango/lacroix mango_1556149295614.xml
+TOR_feedback/Images/p07/original/train/caramel coffee/caramel coffee_1556293117180.jpg	TOR_feedback/WholeBBVOC/p07/original/train/caramel coffee/caramel coffee_1556293117180.xml
+TOR_feedback/Images/p08/original/test2/lacroix apricot/test2_1556313261075.jpg	TOR_feedback/WholeBBVOC/p08/original/test2/lacroix apricot/test2_1556313261075.xml
+TOR_feedback/Images/p05/original/train/oregano/oregano_1556147997568.jpg	TOR_feedback/WholeBBVOC/p05/original/train/oregano/oregano_1556147997568.xml
+TOR_feedback/Images/p07/original/train/caramel coffee/caramel coffee_1556292829173.jpg	TOR_feedback/WholeBBVOC/p07/original/train/caramel coffee/caramel coffee_1556292829173.xml
+TOR_feedback/Images/p07/original/train/cheetos/cheetos_1556294741149.jpg	TOR_feedback/WholeBBVOC/p07/original/train/cheetos/cheetos_1556294741149.xml
+TOR_feedback/Images/p06/original/train/lacroix apricot/lacroix apricot_1556232217603.jpg	TOR_feedback/WholeBBVOC/p06/original/train/lacroix apricot/lacroix apricot_1556232217603.xml
+TOR_feedback/Images/p06/original/train/fritos/fritos_1556229506421.jpg	TOR_feedback/WholeBBVOC/p06/original/train/fritos/fritos_1556229506421.xml
+TOR_feedback/Images/p06/original/train/fritos/fritos_1556229359430.jpg	TOR_feedback/WholeBBVOC/p06/original/train/fritos/fritos_1556229359430.xml
+TOR_feedback/Images/p06/original/train/coca cola/coca cola_1556231498910.jpg	TOR_feedback/WholeBBVOC/p06/original/train/coca cola/coca cola_1556231498910.xml
+TOR_feedback/Images/p09/original/train/oregano/oregano_1556325167471.jpg	TOR_feedback/WholeBBVOC/p09/original/train/oregano/oregano_1556325167471.xml
+TOR_feedback/Images/p03/original/train/dill/dill_1555082447597.jpg	TOR_feedback/WholeBBVOC/p03/original/train/dill/dill_1555082447597.xml
+TOR_feedback/Images/p02/original/train/lacroix apricot/lacroix apricot_1554995358669.jpg	TOR_feedback/WholeBBVOC/p02/original/train/lacroix apricot/lacroix apricot_1554995358669.xml
+TOR_feedback/Images/p03/original/train/diet coke/diet coke_1555080244336.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diet coke/diet coke_1555080244336.xml
+TOR_feedback/Images/p07/original/train/pike place roast/pike place roast_1556294167913.jpg	TOR_feedback/WholeBBVOC/p07/original/train/pike place roast/pike place roast_1556294167913.xml
+TOR_feedback/Images/p02/original/train/lays/lay's_1554998798573.jpg	TOR_feedback/WholeBBVOC/p02/original/train/lays/lay's_1554998798573.xml
+TOR_feedback/Images/p09/original/test1/pike place roast/test1_1556326273121.jpg	TOR_feedback/WholeBBVOC/p09/original/test1/pike place roast/test1_1556326273121.xml
+TOR_feedback/Images/p09/original/test2/lacroix mango/test2_1556328085254.jpg	TOR_feedback/WholeBBVOC/p09/original/test2/lacroix mango/test2_1556328085254.xml
+TOR_feedback/Images/p08/original/test1/lacroix mango/test1_1556310339792.jpg	TOR_feedback/WholeBBVOC/p08/original/test1/lacroix mango/test1_1556310339792.xml
+TOR_feedback/Images/p06/original/train/lays/lays_1556230153682.jpg	TOR_feedback/WholeBBVOC/p06/original/train/lays/lays_1556230153682.xml
+TOR_feedback/Images/p05/original/train/oregano/oregano_1556147954520.jpg	TOR_feedback/WholeBBVOC/p05/original/train/oregano/oregano_1556147954520.xml
+TOR_feedback/Images/p05/original/train/chewy bars/chewy bars_1556147171362.jpg	TOR_feedback/WholeBBVOC/p05/original/train/chewy bars/chewy bars_1556147171362.xml
+TOR_feedback/Images/p04/original/train/pike place roast/pike place roast_1555597297015.jpg	TOR_feedback/WholeBBVOC/p04/original/train/pike place roast/pike place roast_1555597297015.xml
+TOR_feedback/Images/p02/original/test2/diced tomatoes/test2_1555004324962.jpg	TOR_feedback/WholeBBVOC/p02/original/test2/diced tomatoes/test2_1555004324962.xml
+TOR_feedback/Images/p04/original/train/caramel coffee/caramel coffee_1555597815103.jpg	TOR_feedback/WholeBBVOC/p04/original/train/caramel coffee/caramel coffee_1555597815103.xml
+TOR_feedback/Images/p05/original/train/diced tomatoes/diced tomatoes_1556149475850.jpg	TOR_feedback/WholeBBVOC/p05/original/train/diced tomatoes/diced tomatoes_1556149475850.xml
+TOR_feedback/Images/p08/original/train/pike place roast/pike place roast_1556305504687.jpg	TOR_feedback/WholeBBVOC/p08/original/train/pike place roast/pike place roast_1556305504687.xml
+TOR_feedback/Images/p06/original/test2/baking soda/test2_1556235319405.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/baking soda/test2_1556235319405.xml
+TOR_feedback/Images/p06/original/train/fritos/fritos_1556229553600.jpg	TOR_feedback/WholeBBVOC/p06/original/train/fritos/fritos_1556229553600.xml
+TOR_feedback/Images/p04/original/train/fritos/fritos_1555597649532.jpg	TOR_feedback/WholeBBVOC/p04/original/train/fritos/fritos_1555597649532.xml
+TOR_feedback/Images/p05/original/train/dill/dill_1556148755017.jpg	TOR_feedback/WholeBBVOC/p05/original/train/dill/dill_1556148755017.xml
+TOR_feedback/Images/p05/original/train/lacroix apricot/lacroix apricot_1556149873454.jpg	TOR_feedback/WholeBBVOC/p05/original/train/lacroix apricot/lacroix apricot_1556149873454.xml
+TOR_feedback/Images/p06/original/train/diet coke/diet coke_1556228880629.jpg	TOR_feedback/WholeBBVOC/p06/original/train/diet coke/diet coke_1556228880629.xml
+TOR_feedback/Images/p01/original/train/dill/dill_1554922001015.jpg	TOR_feedback/WholeBBVOC/p01/original/train/dill/dill_1554922001015.xml
+TOR_feedback/Images/p06/original/train/chicken broth/chicken broth_1556230238756.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chicken broth/chicken broth_1556230238756.xml
+TOR_feedback/Images/p01/original/train/diced tomatoes/diced tomatoes_1554921351983.jpg	TOR_feedback/WholeBBVOC/p01/original/train/diced tomatoes/diced tomatoes_1554921351983.xml
+TOR_feedback/Images/p01/original/train/chewy bars/chewy bars_1554923040726.jpg	TOR_feedback/WholeBBVOC/p01/original/train/chewy bars/chewy bars_1554923040726.xml
+TOR_feedback/Images/p03/original/test1/lacroix mango/test1_1555084879064.jpg	TOR_feedback/WholeBBVOC/p03/original/test1/lacroix mango/test1_1555084879064.xml
+TOR_feedback/Images/p03/original/train/dill/dill_1555082413573.jpg	TOR_feedback/WholeBBVOC/p03/original/train/dill/dill_1555082413573.xml
+TOR_feedback/Images/p04/original/train/chicken broth/chicken broth_1555599271710.jpg	TOR_feedback/WholeBBVOC/p04/original/train/chicken broth/chicken broth_1555599271710.xml
+TOR_feedback/Images/p08/original/train/lacroix mango/lacroix mango_1556306976888.jpg	TOR_feedback/WholeBBVOC/p08/original/train/lacroix mango/lacroix mango_1556306976888.xml
+TOR_feedback/Images/p06/original/test1/cheetos/test1_1556234074659.jpg	TOR_feedback/WholeBBVOC/p06/original/test1/cheetos/test1_1556234074659.xml
+TOR_feedback/Images/p02/original/train/caramel coffee/caramel coffee_1555000298160.jpg	TOR_feedback/WholeBBVOC/p02/original/train/caramel coffee/caramel coffee_1555000298160.xml
+TOR_feedback/Images/p03/original/train/fritos/fritos_1555083702329.jpg	TOR_feedback/WholeBBVOC/p03/original/train/fritos/fritos_1555083702329.xml
+TOR_feedback/Images/p06/original/train/fritos/fritos_1556229197226.jpg	TOR_feedback/WholeBBVOC/p06/original/train/fritos/fritos_1556229197226.xml
+TOR_feedback/Images/p08/original/train/baking soda/baking soda_1556308234666.jpg	TOR_feedback/WholeBBVOC/p08/original/train/baking soda/baking soda_1556308234666.xml
+TOR_feedback/Images/p05/original/train/lacroix apricot/lacroix apricot_1556149840888.jpg	TOR_feedback/WholeBBVOC/p05/original/train/lacroix apricot/lacroix apricot_1556149840888.xml
+TOR_feedback/Images/p06/original/train/cheetos/cheetos_1556231901891.jpg	TOR_feedback/WholeBBVOC/p06/original/train/cheetos/cheetos_1556231901891.xml
+TOR_feedback/Images/p09/original/train/cheetos/cheetos_1556324509503.jpg	TOR_feedback/WholeBBVOC/p09/original/train/cheetos/cheetos_1556324509503.xml
+TOR_feedback/Images/p06/original/train/diced tomatoes/diced tomatoes_1556230722283.jpg	TOR_feedback/WholeBBVOC/p06/original/train/diced tomatoes/diced tomatoes_1556230722283.xml
+TOR_feedback/Images/p06/original/train/fritos/fritos_1556229523439.jpg	TOR_feedback/WholeBBVOC/p06/original/train/fritos/fritos_1556229523439.xml
+TOR_feedback/Images/p05/original/test2/chicken broth/test2_1556151995462.jpg	TOR_feedback/WholeBBVOC/p05/original/test2/chicken broth/test2_1556151995462.xml
+TOR_feedback/Images/p05/original/train/cheetos/cheetos_1556148415238.jpg	TOR_feedback/WholeBBVOC/p05/original/train/cheetos/cheetos_1556148415238.xml
+TOR_feedback/Images/p06/original/train/chicken broth/chicken broth_1556230371038.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chicken broth/chicken broth_1556230371038.xml
+TOR_feedback/Images/p05/original/train/dill/dill_1556148757416.jpg	TOR_feedback/WholeBBVOC/p05/original/train/dill/dill_1556148757416.xml
+TOR_feedback/Images/p04/original/train/dill/dill_1555598740242.jpg	TOR_feedback/WholeBBVOC/p04/original/train/dill/dill_1555598740242.xml
+TOR_feedback/Images/p03/original/train/diced tomatoes/diced tomatoes_1555083232881.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diced tomatoes/diced tomatoes_1555083232881.xml
+TOR_feedback/Images/p04/original/train/cheetos/cheetos_1555599024777.jpg	TOR_feedback/WholeBBVOC/p04/original/train/cheetos/cheetos_1555599024777.xml
+TOR_feedback/Images/p04/original/train/chicken broth/chicken broth_1555599266449.jpg	TOR_feedback/WholeBBVOC/p04/original/train/chicken broth/chicken broth_1555599266449.xml
+TOR_feedback/Images/p02/original/test2/lays/test2_1555003468535.jpg	TOR_feedback/WholeBBVOC/p02/original/test2/lays/test2_1555003468535.xml
+TOR_feedback/Images/p05/original/train/chicken broth/chicken broth_1556147512448.jpg	TOR_feedback/WholeBBVOC/p05/original/train/chicken broth/chicken broth_1556147512448.xml
+TOR_feedback/Images/p09/original/train/oregano/oregano_1556325186984.jpg	TOR_feedback/WholeBBVOC/p09/original/train/oregano/oregano_1556325186984.xml
+TOR_feedback/Images/p05/original/test1/cheetos/test1_1556150795853.jpg	TOR_feedback/WholeBBVOC/p05/original/test1/cheetos/test1_1556150795853.xml
+TOR_feedback/Images/p06/original/test2/dill/test2_1556235074232.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/dill/test2_1556235074232.xml
+TOR_feedback/Images/p06/original/train/coca cola/coca cola_1556231518253.jpg	TOR_feedback/WholeBBVOC/p06/original/train/coca cola/coca cola_1556231518253.xml
+TOR_feedback/Images/p07/original/test1/diced tomatoes/test1_1556296714969.jpg	TOR_feedback/WholeBBVOC/p07/original/test1/diced tomatoes/test1_1556296714969.xml
+TOR_feedback/Images/p04/original/train/diet coke/diet coke_1555598806519.jpg	TOR_feedback/WholeBBVOC/p04/original/train/diet coke/diet coke_1555598806519.xml
+TOR_feedback/Images/p07/original/train/oregano/oregano_1556292286983.jpg	TOR_feedback/WholeBBVOC/p07/original/train/oregano/oregano_1556292286983.xml
+TOR_feedback/Images/p02/original/train/diced tomatoes/diced tomatoes_1554998460669.jpg	TOR_feedback/WholeBBVOC/p02/original/train/diced tomatoes/diced tomatoes_1554998460669.xml
+TOR_feedback/Images/p01/original/test2/lacroix mango/test2_1554926385097.jpg	TOR_feedback/WholeBBVOC/p01/original/test2/lacroix mango/test2_1554926385097.xml
+TOR_feedback/Images/p05/original/train/caramel coffee/caramel coffee_1556148176171.jpg	TOR_feedback/WholeBBVOC/p05/original/train/caramel coffee/caramel coffee_1556148176171.xml
+TOR_feedback/Images/p05/original/test2/diced tomatoes/test2_1556151830733.jpg	TOR_feedback/WholeBBVOC/p05/original/test2/diced tomatoes/test2_1556151830733.xml
+TOR_feedback/Images/p01/original/train/fritos/fritos_1554921804759.jpg	TOR_feedback/WholeBBVOC/p01/original/train/fritos/fritos_1554921804759.xml
+TOR_feedback/Images/p06/original/train/lacroix mango/lacroix mango_1556230522108.jpg	TOR_feedback/WholeBBVOC/p06/original/train/lacroix mango/lacroix mango_1556230522108.xml
+TOR_feedback/Images/p05/original/test1/chewy bars/test1_1556150818084.jpg	TOR_feedback/WholeBBVOC/p05/original/test1/chewy bars/test1_1556150818084.xml
+TOR_feedback/Images/p08/original/train/fritos/fritos_1556307770425.jpg	TOR_feedback/WholeBBVOC/p08/original/train/fritos/fritos_1556307770425.xml
+TOR_feedback/Images/p06/original/train/dill/dill_1556231801367.jpg	TOR_feedback/WholeBBVOC/p06/original/train/dill/dill_1556231801367.xml
+TOR_feedback/Images/p02/original/train/coca cola/coca cola_1554997819889.jpg	TOR_feedback/WholeBBVOC/p02/original/train/coca cola/coca cola_1554997819889.xml
+TOR_feedback/Images/p07/original/train/cheetos/cheetos_1556294720193.jpg	TOR_feedback/WholeBBVOC/p07/original/train/cheetos/cheetos_1556294720193.xml
+TOR_feedback/Images/p06/original/train/oregano/oregano_1556232281055.jpg	TOR_feedback/WholeBBVOC/p06/original/train/oregano/oregano_1556232281055.xml
+TOR_feedback/Images/p04/original/test2/lacroix mango/test2_1555602940636.jpg	TOR_feedback/WholeBBVOC/p04/original/test2/lacroix mango/test2_1555602940636.xml
+TOR_feedback/Images/p05/original/train/chicken broth/chicken broth_1556147566830.jpg	TOR_feedback/WholeBBVOC/p05/original/train/chicken broth/chicken broth_1556147566830.xml
+TOR_feedback/Images/p09/original/train/dill/dill_1556325915253.jpg	TOR_feedback/WholeBBVOC/p09/original/train/dill/dill_1556325915253.xml
+TOR_feedback/Images/p09/original/train/pike place roast/pike place roast_1556323850659.jpg	TOR_feedback/WholeBBVOC/p09/original/train/pike place roast/pike place roast_1556323850659.xml
+TOR_feedback/Images/p06/original/test2/chewy bars/test2_1556235328200.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/chewy bars/test2_1556235328200.xml
+TOR_feedback/Images/p03/original/train/dill/dill_1555082454747.jpg	TOR_feedback/WholeBBVOC/p03/original/train/dill/dill_1555082454747.xml
+TOR_feedback/Images/p05/original/train/pike place roast/pike place roast_1556147835598.jpg	TOR_feedback/WholeBBVOC/p05/original/train/pike place roast/pike place roast_1556147835598.xml
+TOR_feedback/Images/p08/original/train/fritos/fritos_1556307754569.jpg	TOR_feedback/WholeBBVOC/p08/original/train/fritos/fritos_1556307754569.xml
+TOR_feedback/Images/p01/original/test2/coca cola/test2_1554925888851.jpg	TOR_feedback/WholeBBVOC/p01/original/test2/coca cola/test2_1554925888851.xml
+TOR_feedback/Images/p07/original/train/pike place roast/pike place roast_1556294126725.jpg	TOR_feedback/WholeBBVOC/p07/original/train/pike place roast/pike place roast_1556294126725.xml
+TOR_feedback/Images/p02/original/train/cheetos/cheetos_1554999119069.jpg	TOR_feedback/WholeBBVOC/p02/original/train/cheetos/cheetos_1554999119069.xml
+TOR_feedback/Images/p08/original/train/caramel coffee/caramel coffee_1556308944756.jpg	TOR_feedback/WholeBBVOC/p08/original/train/caramel coffee/caramel coffee_1556308944756.xml
+TOR_feedback/Images/p06/original/train/dill/dill_1556231738582.jpg	TOR_feedback/WholeBBVOC/p06/original/train/dill/dill_1556231738582.xml
+TOR_feedback/Images/p03/original/train/oregano/oregano_1555078907369.jpg	TOR_feedback/WholeBBVOC/p03/original/train/oregano/oregano_1555078907369.xml
+TOR_feedback/Images/p02/original/train/diced tomatoes/diced tomatoes_1554998340559.jpg	TOR_feedback/WholeBBVOC/p02/original/train/diced tomatoes/diced tomatoes_1554998340559.xml
+TOR_feedback/Images/p07/original/train/lacroix mango/lacroix mango_1556295476420.jpg	TOR_feedback/WholeBBVOC/p07/original/train/lacroix mango/lacroix mango_1556295476420.xml
+TOR_feedback/Images/p03/original/train/coca cola/coca cola_1555081861306.jpg	TOR_feedback/WholeBBVOC/p03/original/train/coca cola/coca cola_1555081861306.xml
+TOR_feedback/Images/p08/original/train/pike place roast/pike place roast_1556305352213.jpg	TOR_feedback/WholeBBVOC/p08/original/train/pike place roast/pike place roast_1556305352213.xml
+TOR_feedback/Images/p08/original/train/baking soda/baking soda_1556308151562.jpg	TOR_feedback/WholeBBVOC/p08/original/train/baking soda/baking soda_1556308151562.xml
+TOR_feedback/Images/p03/original/train/fritos/fritos_1555083636858.jpg	TOR_feedback/WholeBBVOC/p03/original/train/fritos/fritos_1555083636858.xml
+TOR_feedback/Images/p04/original/train/oregano/oregano_1555598479954.jpg	TOR_feedback/WholeBBVOC/p04/original/train/oregano/oregano_1555598479954.xml
+TOR_feedback/Images/p04/original/test1/chicken broth/test1_1555600417828.jpg	TOR_feedback/WholeBBVOC/p04/original/test1/chicken broth/test1_1555600417828.xml
+TOR_feedback/Images/p05/original/train/diced tomatoes/diced tomatoes_1556149488387.jpg	TOR_feedback/WholeBBVOC/p05/original/train/diced tomatoes/diced tomatoes_1556149488387.xml
+TOR_feedback/Images/p06/original/train/fritos/fritos_1556229486011.jpg	TOR_feedback/WholeBBVOC/p06/original/train/fritos/fritos_1556229486011.xml
+TOR_feedback/Images/p01/original/train/baking soda/baking soda_1554920781242.jpg	TOR_feedback/WholeBBVOC/p01/original/train/baking soda/baking soda_1554920781242.xml
+TOR_feedback/Images/p02/original/test1/diced tomatoes/test1_1555001851705.jpg	TOR_feedback/WholeBBVOC/p02/original/test1/diced tomatoes/test1_1555001851705.xml
+TOR_feedback/Images/p07/original/train/lays/lays_1556293667342.jpg	TOR_feedback/WholeBBVOC/p07/original/train/lays/lays_1556293667342.xml
+TOR_feedback/Images/p02/original/train/lays/lay's_1554998788468.jpg	TOR_feedback/WholeBBVOC/p02/original/train/lays/lay's_1554998788468.xml
+TOR_feedback/Images/p02/original/train/diet coke/diet coke_1554996536182.jpg	TOR_feedback/WholeBBVOC/p02/original/train/diet coke/diet coke_1554996536182.xml
+TOR_feedback/Images/p07/original/train/chewy bars/chewy bars_1556295852173.jpg	TOR_feedback/WholeBBVOC/p07/original/train/chewy bars/chewy bars_1556295852173.xml
+TOR_feedback/Images/p03/original/train/diet coke/diet coke_1555080168443.jpg	TOR_feedback/WholeBBVOC/p03/original/train/diet coke/diet coke_1555080168443.xml
+TOR_feedback/Images/p04/original/train/caramel coffee/caramel coffee_1555597803002.jpg	TOR_feedback/WholeBBVOC/p04/original/train/caramel coffee/caramel coffee_1555597803002.xml
+TOR_feedback/Images/p09/original/train/oregano/oregano_1556325205167.jpg	TOR_feedback/WholeBBVOC/p09/original/train/oregano/oregano_1556325205167.xml
+TOR_feedback/Images/p07/original/train/cheetos/cheetos_1556294735971.jpg	TOR_feedback/WholeBBVOC/p07/original/train/cheetos/cheetos_1556294735971.xml
+TOR_feedback/Images/p04/original/train/pike place roast/pike place roast_1555597367568.jpg	TOR_feedback/WholeBBVOC/p04/original/train/pike place roast/pike place roast_1555597367568.xml
+TOR_feedback/Images/p09/original/train/fritos/fritos_1556324670978.jpg	TOR_feedback/WholeBBVOC/p09/original/train/fritos/fritos_1556324670978.xml
+TOR_feedback/Images/p06/original/train/chicken broth/chicken broth_1556230277078.jpg	TOR_feedback/WholeBBVOC/p06/original/train/chicken broth/chicken broth_1556230277078.xml
+TOR_feedback/Images/p06/original/train/caramel coffee/caramel coffee_1556229773258.jpg	TOR_feedback/WholeBBVOC/p06/original/train/caramel coffee/caramel coffee_1556229773258.xml
+TOR_feedback/Images/p06/original/train/diet coke/diet coke_1556228896714.jpg	TOR_feedback/WholeBBVOC/p06/original/train/diet coke/diet coke_1556228896714.xml
+TOR_feedback/Images/p06/original/test2/pike place roast/test2_1556235482584.jpg	TOR_feedback/WholeBBVOC/p06/original/test2/pike place roast/test2_1556235482584.xml
+TOR_feedback/Images/p06/original/train/diet coke/diet coke_1556228906910.jpg	TOR_feedback/WholeBBVOC/p06/original/train/diet coke/diet coke_1556228906910.xml
+TOR_feedback/Images/p08/original/train/lacroix apricot/lacroix apricot_1556306286051.jpg	TOR_feedback/WholeBBVOC/p08/original/train/lacroix apricot/lacroix apricot_1556306286051.xml
+TOR_feedback/Images/p02/original/test1/coca cola/test1_1555000890212.jpg	TOR_feedback/WholeBBVOC/p02/original/test1/coca cola/test1_1555000890212.xml
+TOR_feedback/Images/p09/original/train/fritos/fritos_1556324623523.jpg	TOR_feedback/WholeBBVOC/p09/original/train/fritos/fritos_1556324623523.xml
+TOR_feedback/Images/p03/original/train/coca cola/coca cola_1555081843206.jpg	TOR_feedback/WholeBBVOC/p03/original/train/coca cola/coca cola_1555081843206.xml
+TOR_feedback/Images/p02/original/test2/baking soda/test2_1555003787611.jpg	TOR_feedback/WholeBBVOC/p02/original/test2/baking soda/test2_1555003787611.xml
+TOR_feedback/Images/p05/original/train/baking soda/baking soda_1556148955679.jpg	TOR_feedback/WholeBBVOC/p05/original/train/baking soda/baking soda_1556148955679.xml
+TOR_feedback/Images/p01/original/train/lays/lay's_1554922083167.jpg	TOR_feedback/WholeBBVOC/p01/original/train/lays/lay's_1554922083167.xml
+TOR_feedback/Images/p03/original/train/lacroix mango/lacroix mango_1555079659550.jpg	TOR_feedback/WholeBBVOC/p03/original/train/lacroix mango/lacroix mango_1555079659550.xml
+TOR_feedback/Images/p05/original/train/pike place roast/pike place roast_1556147901680.jpg	TOR_feedback/WholeBBVOC/p05/original/train/pike place roast/pike place roast_1556147901680.xml
+TOR_feedback/Images/p01/original/test1/diced tomatoes/test1_1554923947155.jpg	TOR_feedback/WholeBBVOC/p01/original/test1/diced tomatoes/test1_1554923947155.xml
+TOR_feedback/Images/p04/original/train/pike place roast/pike place roast_1555597339618.jpg	TOR_feedback/WholeBBVOC/p04/original/train/pike place roast/pike place roast_1555597339618.xml
+TOR_feedback/Images/p02/original/train/chicken broth/chicken broth_1554996011441.jpg	TOR_feedback/WholeBBVOC/p02/original/train/chicken broth/chicken broth_1554996011441.xml

@@ -17,6 +17,7 @@ from lib.datasets.coco import coco
 from lib.datasets.gtea import gtea
 from lib.datasets.gtea_gaze_plus import gtea_gaze_plus
 from lib.datasets.tego import tego
+from lib.datasets.tor_feedback import tor_feedback
 
 import numpy as np
 
@@ -53,6 +54,12 @@ for split in ["train", "val", "test", "train-wholeBB", "val-wholeBB", "test-whol
               "train-blind", "train-sighted", "train-blind-wholeBB", "train-sighted-wholeBB"]:
   name = "tego_{}".format(split)
   __sets[name] = (lambda split=split: tego(split))
+
+# Set up TOR feedback
+for split in ["train", "val", "test", "train-wholeBB", "val-wholeBB", "test-wholeBB"]:
+  name = "tor-feedback_{}".format(split)
+  __sets[name] = (lambda split=split: tor_feedback(split))
+
 
 def get_imdb(name):
   """Get an imdb (image database) by name."""

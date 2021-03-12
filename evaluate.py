@@ -3,8 +3,8 @@
 # --------------------------------------------------------
 # Tensorflow Faster R-CNN
 # Licensed under The MIT License [see LICENSE for details]
-# Modified by Kyungjun Lee based on code from
-# Ross Girshick and Xinlei Chen
+# Modified by Kyungjun Lee
+# based on code from Ross Girshick and Xinlei Chen
 # --------------------------------------------------------
 
 """
@@ -61,7 +61,12 @@ CLASSES = {
             'regular coke bottle', 'sprite bottle', 'aspirin',
             'baked lays chips', 'chicken soup can', 'dr pepper can', 
             'great grains cereal', 'hand sanitizer', 'mandarin can',
-            'spf55 sunscreen')
+            'spf55 sunscreen'),
+    'tor-feedback': ('none',  # always index 0
+                    'baking soda', 'caramel coffee', 'cheetos', 'chewy bars',
+                    'chicken broth', 'coca cola', 'diced tomatoes',
+                    'diet coke', 'dill', 'fritos', 'lacroix apricot',
+                    'lacroix mango', 'lays', 'oregano', 'pike place roast')
     }
 
 NETS = {
@@ -74,7 +79,17 @@ DATASETS = {
   'tego': ('tego', 'test_TEgO_voc.txt',),
   'gtea_wholeBB': ('gtea', 'test_GTEA_voc_wholeBB.txt',),
   'gtea-gaze-plus_wholeBB': ('gtea-gaze-plus', 'test_GTEA_GAZE_PLUS_voc_wholeBB.txt',),
-  'tego_wholeBB': ('tego', 'test_TEgO_voc_wholeBB.txt',)
+  'tego_wholeBB': ('tego', 'test_TEgO_voc_wholeBB.txt',),
+  'tego_blind': ('tego', 'test_TEgO_blind_voc.txt',),
+  'tego_sighted': ('tego', 'test_TEgO_sighted_voc.txt',),
+  'tego_blind_wholeBB': ('tego', 'test_TEgO_blind_voc_wholeBB.txt',),
+  'tego_sighted_wholeBB': ('tego', 'test_TEgO_sighted_voc_wholeBB.txt',),
+  'tego_nohand': ('tego', 'test_TEgO_nohand_voc.txt',),
+  'tego_nohand_wholeBB': ('tego', 'test_TEgO_nohand_voc_wholeBB.txt',),
+  'tego_testing_nohand': ('tego', 'TEgO_testing_blind_nohand_voc.txt',),
+  'tego_testing_nohand_wholeBB': ('tego', 'TEgO_testing_blind_nohand_voc_wholeBB.txt',),
+  'tor-feedback': ('tor-feedback', 'test_TOR_feedback_voc.txt',),
+  'tor-feedback_wholeBB': ('tor-feedback', 'test_TOR_feedback_voc_wholeBB.txt',),
   }
 
 
@@ -121,8 +136,36 @@ def vis_detections(im, bbox, score, class_name):
     return im
 
 
-def calculate_ap(gt, est):
-    return
+def get_ap(ious, threshold):
+    precs = []
+    for i, iou in enumerate(ious):
+        if iou > threshold:
+            prec_at = (len(precs) + 1) / (i + 1)
+            precs.append(prec_at)
+    
+    return float(sum(precs) / len(precs)) if len(precs) > 0 else 0.
+
+
+def calculate_map(ious, threshold=None):
+    # if threshold == None, compute mAP
+    # Otherwise, compute AP25, AP50, or AP75 according to the given threshold
+    if threshold is None or threshold == "all":
+        # do this
+        thresholds = np.arange(0.5, 1.0, 0.05)
+        aps = []
+        for each in thresholds:
+#             print(each)
+            # calculate AP
+            ap = get_ap(ious, each)
+            aps.append(ap)
+#         print(aps)
+        ap = float(sum(aps) / len(aps))
+    else:
+        # AP25, AP50, or AP75
+        # get AP
+        ap = get_ap(ious, threshold)
+    
+    return ap
 
 
 def compute_distance(p1, p2):
@@ -140,7 +183,7 @@ def get_area(bb):
     return w * h
 
 
-def compute_iou(gt_bb, est_bb):
+def compute_iou_and_iog(gt_bb, est_bb):
     # bb = (x1, y1, x2, y2)
     gt_area = get_area(gt_bb)
     est_area = get_area(est_bb)
@@ -154,16 +197,16 @@ def compute_iou(gt_bb, est_bb):
     h = np.maximum(0.0, yy2 - yy1 + 1)
     inter_area = w * h
 
-    return inter_area / (gt_area + est_area - inter_area)
+    return inter_area / (gt_area + est_area - inter_area), inter_area / gt_area
 
 
 def keep_closest(dets, gt, thresh=0.5):
     inds = np.where(dets[:, 4] >= thresh)[0]
     if len(inds) == 0:
-        return None, 0
+        return None, 0, 0
     elif len(inds) == 1:
-        iou = compute_iou(gt["bbox"], dets[inds[0], :4])
-        return dets[inds[0]], iou
+        iou, iog = compute_iou_and_iog(gt["bbox"], dets[inds[0], :4])
+        return dets[inds[0]], iou, iog
     else:
         print("more than one estimated bb, so choose one that's closest")
         
@@ -179,15 +222,16 @@ def keep_closest(dets, gt, thresh=0.5):
                 closest_dist = dist
                 closest_i = i
         
-        iou = compute_iou(gt_bbox, dets[closest_i, :4])
-        return dets[closest_i], iou
+        iou, iog = compute_iou_and_iog(gt_bbox, dets[closest_i, :4])
+        return dets[closest_i], iou, iog
 
 
-def evaluate(sess, net, dataset, img_file, voc_file, output_dir):
+def evaluate(sess, net, dataset, img_file, voc_file, output_dir, demo_dir):
     """Detect object classes in an image using pre-computed object proposals."""
 
     # Load the demo image
     im = cv2.imread(img_file)
+    demo = im.copy()
 
     # Detect all object classes and regress object bounds
     timer = Timer()
@@ -207,11 +251,13 @@ def evaluate(sess, net, dataset, img_file, voc_file, output_dir):
     gt_label = gt["name"]
     gt_color = (0, 0, 255)
     gt_thickness = 2
+    """
     im = cv2.rectangle(im, (gt_bbox[0], gt_bbox[1]), (gt_bbox[2], gt_bbox[3]),
                     gt_color, gt_thickness)
     im = cv2.putText(im, gt_label,
                     (gt_bbox[0], gt_bbox[3] - 15), cv2.FONT_HERSHEY_PLAIN, 1.5,
                     gt_color, gt_thickness, bottomLeftOrigin=False)
+    """
 
     # Visualize detections for each class
     CONF_THRESH = 0.1
@@ -219,6 +265,7 @@ def evaluate(sess, net, dataset, img_file, voc_file, output_dir):
     
     est_label = "None"
     ret_iou = 0
+    ret_iog = 0
     whole_dets = None
     for cls_ind, cls in enumerate(CLASSES[DATASETS[dataset][0]][1:]):
         cls_ind += 1  # because we skipped background
@@ -232,18 +279,26 @@ def evaluate(sess, net, dataset, img_file, voc_file, output_dir):
         #print(dets)
         keep = nms(dets, NMS_THRESH)
         dets = dets[keep, :]
+        # draw the original estimated bbox(es)
+        inds = np.where(dets[:, 4] >= CONF_THRESH)[0]
+        for i in inds:
+            bbox = dets[i, :4].astype(int)
+            score = dets[i, 4]
+            est_label = CLASSES[DATASETS[dataset][0]][int(dets[i, -1])]
+            demo = vis_detections(demo, bbox, score, est_label)
+
         if whole_dets is None:
             whole_dets = dets
         else:
             whole_dets = np.append(whole_dets, dets, axis=0)
     
     if whole_dets is None:
-        return gt_label, est_label, ret_iou
+        return gt_label, est_label, ret_iou, ret_iog
 
     # get only one that is closest to the bounding box
     #print(whole_dets)
     #print(whole_dets.shape)
-    dets, ret_iou = keep_closest(whole_dets, gt, thresh=CONF_THRESH)
+    dets, ret_iou, ret_iog = keep_closest(whole_dets, gt, thresh=CONF_THRESH)
     if dets is not None: # no appropriately estimated label
         # do evaluation
         bbox = dets[:4].astype(int)
@@ -254,11 +309,13 @@ def evaluate(sess, net, dataset, img_file, voc_file, output_dir):
     
     # write the debugging file here
     output_file = osp.join(output_dir, osp.basename(img_file))
+    demo_file = osp.join(demo_dir, osp.basename(img_file))
     #plt.savefig(output_file)
     cv2.imwrite(output_file, im)
-    print("Output written to {}".format(output_file))
+    cv2.imwrite(demo_file, demo)
+    print("Output written to {} and {}".format(output_file, demo_file))
     
-    return gt_label, est_label, ret_iou
+    return gt_label, est_label, ret_iou, ret_iog
 
 
 if __name__ == '__main__':
@@ -327,38 +384,57 @@ if __name__ == '__main__':
     testlist = DATASETS[dataset][1]
     img_files = []
     voc_files = []
+    is_tor_feedback = "tor-feedback" in dataset
     print("Reading test files from {}".format(testlist))
     with open(osp.join(data_dir, testlist), 'r') as f:
         for line in f.readlines():
-            img, voc = line.split()
-            img_files.append(osp.join(data_dir, img))
-            voc_files.append(osp.join(data_dir, voc))
+            # NOTE:
+            # The list for TOR Feedback uses the tab character as a delimiter
+            # The list for other datasets uses the space character as a delimiter
+            img, voc = line.split() if not is_tor_feedback else line.split('\t')
+            img_files.append(osp.join(data_dir, img.strip()))
+            voc_files.append(osp.join(data_dir, voc.strip()))
     
     out_dir = "results"
     output_dir = osp.join(out_dir, dataset, testlist.split('.')[0])
     if not osp.exists(output_dir):
         os.makedirs(output_dir)
     
-    img_files
+    demo_dir = "demos"
+    demo_dir = osp.join(demo_dir, dataset, testlist.split('.')[0])
+    if not osp.exists(demo_dir):
+        os.makedirs(demo_dir)
+    
     gt_labels = []
     est_labels = []
     ious = []
+    iogs = []
     for img_file, voc_file in zip(img_files, voc_files):
         print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
         print('Evaluate for {} with {}'.format(img_file, voc_file))
         assert osp.exists(img_file), "ERROR: {} NOT FOUND".format(img_file)
         assert osp.exists(voc_file), "ERROR: {} NOT FOUND".format(voc_file)
-        gt_label, est_label, iou = evaluate(sess, net, dataset, img_file, voc_file, output_dir)
+        gt_label, est_label, iou, iog = evaluate(sess, net, dataset, img_file,\
+                    voc_file, output_dir, demo_dir)
         gt_labels.append(gt_label)
         est_labels.append(est_label)
         ious.append(iou)
+        iogs.append(iog)
         #break
     
     # simple calculation
     prec, rec, f1, _ = precision_recall_fscore_support(gt_labels, est_labels, average="macro")
     miou = sum(ious) / len(ious)
-    print(gt_labels)
-    print(est_labels)
-    print(ious)
-    print("Precision: {}, Recall: {}, F1: {}, mIOUS: {}".format(prec, rec, f1, miou))
+    miog = sum(iogs) / len(iogs)
+    # mAPs
+    ap = calculate_map(ious, None)
+    ap50 = calculate_map(ious, 0.5)
+    ap75 = calculate_map(ious, 0.75)
+    #print(gt_labels)
+    #print(est_labels)
+    #print(ious)
+    print("==============================================================")
+    print("Precision: {}, Recall: {}, F1: {}".format(prec, rec, f1))
+    print("mIOU: {}, mIOG: {}".format(miou, miog))
+    print("mAP: {}, AP50: {}, AP75: {}".format(ap, ap50, ap75))
     print("Done")

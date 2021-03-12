@@ -100,6 +100,10 @@ class Train:
             self.imdb, self.roidb = load_db("tego_train-blind-wholeBB")
         elif dataset == "tego_sighted_wholeBB":
             self.imdb, self.roidb = load_db("tego_train-sighted-wholeBB")
+        elif dataset == "tor-feedback":
+            self. imdb, self.roidb = load_db("tor-feedback_train")
+        elif dataset == "tor-feedback_wholeBB":
+            self. imdb, self.roidb = load_db("tor-feedback_train-wholeBB")
         else:
             self.imdb, self.roidb = combined_roidb("voc_2007_trainval")
 
